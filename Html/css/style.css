@@ -2,3 +2,10 @@
     width: 30px;
     height: 30px;
 }
+
+.grid-item-s{
+    background: lightblue;
+    width: 100%;
+    height: 100%;
+
+}
