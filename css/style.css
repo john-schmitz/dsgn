@@ -9,3 +9,10 @@
     height: 100%;
 
 }
+
+@keyframes col{
+    50%{transform: scale(1.1)}
+}
+.col-sm:hover{
+    animation: 1s col infinite
+}
