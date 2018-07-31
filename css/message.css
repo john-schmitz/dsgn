@@ -1,0 +1,79 @@
+body {
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+header {
+    height: 77px;
+    background: #666666;
+}
+
+.page {
+    margin: 10px 0;
+    text-align: center;
+    background: #e3e3e3;
+    padding: 20px;
+    border: 1px solid #d6d6d6;
+}
+
+main {
+    background: linear-gradient(rgb(48, 96, 145), rgb(83, 168, 253));
+    padding: 5px;
+    border: 2px solid #383737;
+    display: flex;
+    height: 100%;
+}
+
+.chats {
+    background: white;
+    border: 2px solid #383737;
+    padding: 5px;
+    width: 320px;
+}
+
+.chats .person {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.chats .picture {
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: rgb(204, 204, 204);
+}
+
+.chats h3 {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.chat {
+    background: white;
+    margin-left: 5px;
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.send {
+    border-top: 1.5px solid rgba(0, 0, 0, 0.5);
+    background: rgb(67, 136, 204);
+    padding: 10px;
+}
+
+.send form {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.send form input {
+    width: calc(100% - 80px);
+}
+.send form button {
+    margin: 0;
+}
