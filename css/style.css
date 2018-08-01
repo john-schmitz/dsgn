@@ -1,9 +1,9 @@
-:root{
-    --accent-color: rgb(68, 68, 139);
+body{
+    background-color: white;
 }
 
-.body{
-    background: grey;
+:root{
+    --accent-color: rgb(68, 68, 139);
 }
 
 .search-icon{

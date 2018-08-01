@@ -1,7 +1,7 @@
 function DarkTheme(){
-    document.getElementById('body').style.backgroundColor = grey;
+    document.getElementsByTagName('body').style.backgroundColor = "#171819";
 }
 
 function LightTheme(){
-    document.getElementById('body').style.backgroundColor = white;
+    document.getElementsByName('body').style.backgroundColor = "#ffffff";
 }
