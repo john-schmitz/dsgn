@@ -2,6 +2,10 @@
     --accent-color: rgb(68, 68, 139);
 }
 
+.body{
+    background: grey;
+}
+
 .search-icon{
     width: 30px;
     height: 30px;
@@ -14,11 +18,8 @@
 
 }
 
-@keyframes col{
-    50%{transform: scale(1.1)}
-}
 .col-sm:hover{
-    animation: 1s col infinite
+    transform: scale(1.1);
 }
 
 .search-container {
