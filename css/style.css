@@ -37,5 +37,8 @@ body{
 
 }
 .pagetitle{
-    margin-top: 10px; 
+    margin-top: 70px; 
+}
+.formcadastro{
+    width: 30%;
 }
