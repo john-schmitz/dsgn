@@ -4,3 +4,6 @@
 .textField{
     position: absolute ;
 }
+.cardChat{
+    overflow-wrap: break-word;
+}
