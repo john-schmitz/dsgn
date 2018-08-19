@@ -37,6 +37,7 @@
 .send {
     border-top: 1px solid rgba(150,150,150, 0.2);
     padding: 5px 0px;
+    margin-top: 5px;
 }
 
 .transparent, .transparent:active, .transparent:focus {
@@ -53,10 +54,6 @@
     display: flex;
     flex-direction: column;
     overflow-y: auto;
-}
-
-.chatBox .received:last-child, .chatBox .sent:last-child  {
-    margin-bottom: 10px;
 }
 
 .received, .sent{
@@ -81,4 +78,8 @@
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     border-bottom-left-radius: 15px;
+}
+
+.sent img {
+    width: 100%;
 }
