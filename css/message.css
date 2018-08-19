@@ -1,45 +1,27 @@
-body {
-    padding: 0;
-    height: 100vh;
+.chat{
     display: flex;
     flex-direction: column;
-}
-header {
-    height: 77px;
-    background: #666666;
-}
-
-.page {
-    margin: 10px 0;
-    text-align: center;
-    background: #e3e3e3;
-    padding: 20px;
-    border: 1px solid #d6d6d6;
+    justify-content: end;
+    padding: 0;
+    max-height: calc(100vh - 120px);
 }
 
-main {
-    background: linear-gradient(rgb(48, 96, 145), rgb(83, 168, 253));
-    padding: 5px;
-    border: 2px solid #383737;
-    display: flex !important;
-    height: 100%;
+.chat, .cardChats{
+    border: 1px solid rgba(150,150,150, 0.2);
 }
 
-.chats {
-    background: white;
-    border: 2px solid #383737;
-    padding: 5px;
-    width: 320px;
-}
-
-.chats .person {
+.cardChat{
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
-    margin-bottom: 10px;
+    border-radius: 3px;
+    padding: 10px;
+}
+.cardChats .row:first-child {
+    background: #a0a0a0;
 }
 
-.chats .picture {
+.picture{
     border: 1px solid black;
     height: 50px;
     width: 50px;
@@ -47,41 +29,56 @@ main {
     background: rgb(204, 204, 204);
     margin-right: 5px;
 }
-
-.chats h3 {
-    display: inline-block;
-}
-
-.chat {
-    background: white;
-    margin-left: 5px;
-    width: 100%;
-    border: 2px solid black;
-    display: flex;
-    flex-direction: column-reverse;
+.cardChats {
+    padding: 0 14px;
+    border-radius: 5px;
 }
 
 .send {
-    border-top: 1.5px solid rgba(0, 0, 0, 0.5);
-    background: rgb(67, 136, 204);
-    padding: 10px;
+    border-top: 1px solid rgba(150,150,150, 0.2);
+    padding: 5px 0px;
 }
 
-.send form {
-    width: 100%;
-    margin: 0 auto;
+.transparent, .transparent:active, .transparent:focus {
+    border: none;
+    box-shadow: none;
+    outline: none;
 }
 
-.send form input {
-    width: calc(100% - 80px);
-}
-.send form button {
-    margin-left: 5px;
+.container {
+    height: calc(100vh - 120px);
 }
 
-
-.send form .form-group {
+.chatBox {
     display: flex;
-    align-items: center;
-    margin: 0;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.chatBox .received:last-child, .chatBox .sent:last-child  {
+    margin-bottom: 10px;
+}
+
+.received, .sent{
+    padding: 10px;
+    margin: 0.5px 20px;
+    max-width: 40%;
+}
+
+.received {
+    align-self: start;
+    background: #FF8C00;
+    color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.sent {
+    align-self: end;
+    background: #FF0000;
+    color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
