@@ -5,5 +5,19 @@
     position: absolute ;
 }
 .cardChat{
-    overflow-wrap: break-word;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.cardRecentes{
+    padding: 10px;
+}
+.picture{
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: rgb(204, 204, 204);
+    margin-right: 5px;
 }
