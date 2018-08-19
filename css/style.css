@@ -1,9 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 body{
+    font-family: 'Roboto', sans-serif;
     background-color: white;
 }
 
 :root{
-    --accent-color: rgb(68, 68, 139);
+    --accent-color: rgb(245, 58, 120);
+    --secondary-shadow: 0 5px 10px rgb(172, 172, 172);
+
+}
+
+.navbar{
+    background: var(--accent-color);
 }
 
 .search-icon{
@@ -35,4 +44,11 @@ body{
     width: 30%;
     margin: 10px;
 
+}
+
+.card {
+    transition: 1s
+}
+.card:hover {
+    transform: scale(1,1);
 }
