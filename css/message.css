@@ -67,8 +67,8 @@
 
 .received {
     align-self: start;
-    background: #FF8C00;
-    color: white;
+    background: #dcf8c6;
+    color: #262626;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
@@ -76,8 +76,8 @@
 
 .sent {
     align-self: end;
-    background: #FF0000;
-    color: white;
+    background: #80D8FF;
+    color: #262626;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     border-bottom-left-radius: 15px;
