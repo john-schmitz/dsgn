@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/message.css">
     <link rel="stylesheet" href="../css/style.css">
@@ -21,19 +22,19 @@
             <div class="col-sm-4 cardChats container">
                 <div class="row cardChat">
                     <img class="picture">
-                    <h4>Victor Hugo Girardi</h4>
+                    <h5>Victor Hugo Girardi</h5>
                 </div>
                 <div class="row cardChat">
                     <img class="picture">
-                    <h4>Victor Hugo Girardi</h4>
+                    <h5>Gabriel Vitor Baia</h5>
                 </div>
                 <div class="row cardChat">
                     <img class="picture">
-                    <h4>Victor Hugo Girardi</h4>
+                    <h5>Kayney Jesus Antunes</h5>
                 </div>
                 <div class="row cardChat">
                     <img class="picture">
-                    <h4>Victor Hugo Girardi</h4>
+                    <h5>Phylipeson Silva</h5>
                 </div>
             </div>
             <div class="chat col-sm-8">
@@ -78,6 +79,7 @@
                                 <a href="#" class="dropdown-item">Enviar versão final</a>
                                 <a href="#" class="dropdown-item" data-toggle="modal" data-target="#new-version-project">Enviar versão nova</a>
                                 <a href="#" class="dropdown-item">Enviar referência</a>
+                                <a href="#" class="dropdown-item" data-toggle="modal" data-target="#evaluate-project">Avaliar companheiro</a>
                                 <div class="dropdown-divider"></div>
                                 <a href="#" class="dropdown-item" data-toggle="modal" data-target="#cancel-project">Cancelar Projeto</a>
                             </div>
@@ -127,6 +129,33 @@
             </div>
         </div>
     </div>
+    <!-- Evaluate Model-->
+    <div class="modal fade" id="evaluate-project" tabindex="-1" role="dialog" aria-labelledby="evaluateModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="evaluateModalLabel">Job Concluído</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Avalie seu companheiro de projeto</p>
+                    <div style="cursor: pointer">
+                        <span class="fa fa-star fa-2x"></span>
+                        <span class="fa fa-star fa-2x"></span>
+                        <span class="fa fa-star fa-2x"></span>
+                        <span class="fa fa-star fa-2x"></span>
+                        <span class="fa fa-star fa-2x"></span>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary">Enviar</button>
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+                </div>
+                </div>
+            </div>
+        </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
