@@ -10,7 +10,7 @@ var Navbar = {
               <a class="nav-link" href="#">Entre</a>
             </li>
             <li>
-                <a class="nav-link" href="Html/cadastro.html">Inscreva-se</a>
+                <a class="nav-link" href="../Html/main.html">Inscreva-se</a>
             </li>
           </ul>
         </div>
