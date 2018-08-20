@@ -1,10 +1,4 @@
-:root{
-    --secondary-shadow: 0 5px 10px rgb(172, 172, 172);
-
-}
-
 .d-flex > .card {
-    box-shadow: var(--secondary-shadow);
     width: 13rem;
 
 }
