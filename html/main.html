@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="pt-br">
+
 <head>
     <title>Plataforma | Destaques</title>
     <meta charset="utf-8">
@@ -10,37 +11,26 @@
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
     <header>
-        <navbar></navbar>
-    </header>
-    <div class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="navbar-brand">Destaques</div>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <li class="navbar-item dropdown mr-3">
-                    <a href="busca.html">
-                        <img class="search-icon" src="../imagens/icones/outline_search_black_48dp.png" alt="search">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand text-light">Logo</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+            </button>
+            <ul class="navbar-nav ml-auto justify-content-center align-items-center">
+                <li class="nav-item active">
+                    <a class="nav-link font-weight-bold" href="../html/busca.html">
+                        Pesquisar
                     </a>
-                </li>
-                <li class="navbar-item">
-                    <div class="input-group mr-3">
-                        <div class="input-group-append">
-                            <label class="input-group-text" for="inputGroupSelect01">Opções</label>
-                        </div>
-                        <select class="custom-select" id="inputGroupSelect01">
-                            <option selected>Escolha</option>
-                        </select>
-                    </div>
-        </div>
-    </div>
+            </ul>
+        </nav>
+    </header>
+
     <div class="container my-3">
         <div id="jobs">
-            <p class="lead w-50 mx-auto text-center">Jobs da semana</p>
+            <h2 class="font-weight-bold w-50 pt-3 mx-auto text-center">Jobs da semana</h2>
             <div class="row mb-2 mt-4 align-items-center justify-content-center">
                 <div class="card mb-4 h-md-250 mx-4" style="width: 18rem">
                     <div class="hovereffect">
@@ -82,8 +72,8 @@
                 </div>
             </div>
         </div>
-        <p class="lead w-50 mx-auto text-center mt-4 ">Aqui estão alguns dos melhores designers que fizeram um bom trabalho nos últimos tempos.</p>
-        <div class="row mt-4 align-items-center justify-content-center">
+        <p class="lead w-750 mx-auto text-center mt-4 ">Aqui estão alguns dos melhores designers que fizeram um bom trabalho nos últimos tempos.</p>
+        <div class="row mt-4 align-items-center justify-content-center ">
             <div class="card flex-md-row mb-4 shadow-sm h-md-250">
                 <div class="card-body d-flex flex-column align-items-start">
                     <div class="row">
@@ -91,7 +81,7 @@
                             <img src="../imagens/icones/carlosperfil.jpg" class="rounded-circle img-thumbnail" width="100px" height="100px">
                         </div>
                         <div class="col-md-auto">
-                            <h3 class="mb-0">
+                            <h3 class="mb-0 user-name">
                                 <a href="" class="text-dark">Victor Hugo</a>
                             </h3>
                             <div class="mb-1 text-muted">Ilustrador | @victorgirardi</div>
@@ -184,4 +174,5 @@
         <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
         <script src="../js/content/navbar.js"></script>
 </body>
+
 </html>

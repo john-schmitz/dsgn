@@ -1,9 +1,10 @@
 :root {
-    --secondary-shadow: 0 5px 10px rgb(172, 172, 172);
+    --secondary-shadow: 0 5px 10px rgb(255, 219, 219);
 }
 
-#jobs .card {
+.card {
     box-shadow: var(--secondary-shadow);
+
 }
 
 .checked {
@@ -77,3 +78,9 @@
     -webkit-transform: translatey(0);
     transform: translatey(0);
 }
+
+h2 {
+    color: var(--accent-color);
+    font-size: 4em;
+}
+
