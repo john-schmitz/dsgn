@@ -8,6 +8,7 @@ body{
 :root{
     --nav-shadow: 0 1px 5px rgb(172, 172, 172);
     --accent-color: rgb(245, 58, 120);
+    --secondary-color: rgb(252, 169, 197);
     --secondary-shadow: 0 5px 10px rgb(172, 172, 172);
 
 }
@@ -16,6 +17,10 @@ body{
     background: var(--accent-color);
     box-shadow: var(--nav-shadow)
 
+}
+
+footer > #foot {
+    font-size: 12px;
 }
 
 .search-icon{
@@ -45,4 +50,9 @@ body{
 .card:hover {
     transform: scale(1,1);
     
+}
+
+#proposta > .btn {
+    background: var(--secondary-color);
+
 }
