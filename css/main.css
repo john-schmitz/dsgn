@@ -81,8 +81,6 @@
 
 h2 {
     color: var(--accent-color);
+    font-size: 4em;
 }
 
-h3 a{
-    color: var(--accent-color);
-}
