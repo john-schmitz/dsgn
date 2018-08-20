@@ -3,8 +3,9 @@
 
 }
 
-#jobs .card {
+.d-flex > .card {
     box-shadow: var(--secondary-shadow);
+    width: 13rem;
 
 }
 
@@ -15,5 +16,6 @@
 .fa-star{
     font-size: 20px;
 }
+
 
 
