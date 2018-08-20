@@ -22,7 +22,7 @@ new Vue({
 });
 
 Vue.component('foot', {
-  template: `<div id="foot" class="p-2 bg-light" style="bottom:0">
+  template: `<div id="foot" class="p-2">
   <p class="text-center"><i>Mocosoft</i> - 2018</p>
 </div>`
 });
