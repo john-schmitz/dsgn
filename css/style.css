@@ -8,7 +8,7 @@ body{
 :root{
     --nav-shadow: 0 1px 5px rgb(172, 172, 172);
     --accent-color: rgb(245, 58, 120);
-    --secondary-color: rgb(252, 169, 197);
+    --secondary-color: rgb(255, 134, 175);
     --secondary-shadow: 0 5px 10px rgb(172, 172, 172);
 
 }
