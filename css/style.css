@@ -15,7 +15,7 @@ body{
 
 .navbar{
     background: var(--accent-color);
-    box-shadow: var(--nav-shadow)
+    box-shadow: var(--nav-shadow);
 
 }
 
