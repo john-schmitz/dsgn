@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=raleway|Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto+Slab');
 
 body{
     font-family: 'Raleway', sans-serif;
@@ -23,6 +23,12 @@ body{
 .navbar{
     background: var(--accent-color);
     box-shadow: var(--nav-shadow)
+
+}
+
+.navbar-icon {
+    width: 35px;
+    height: 35px;
 
 }
 
@@ -133,4 +139,5 @@ h2 {
 .checked {
     color: orange;
 }
+
 
