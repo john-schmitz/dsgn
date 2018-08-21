@@ -18,12 +18,3 @@ new Vue({
     el: 'header'
 });
 
-Vue.component('foot', {
-  template: `<div id="foot" class="p-2">
-  <p class="text-center"><i>Mocosoft</i> - 2018</p>
-</div>`
-});
-
-new Vue({
-  el: 'footer'
-});
