@@ -2,50 +2,59 @@
 <html lang="en">
 
 <head>
-  <title>Plataforma | Busca</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
-    crossorigin="anonymous">
-  <link rel="stylesheet" href="../css/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Plataforma | Busca</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
 </head>
 
 <body>
-  <header>
-    <navbar></navbar>
-  </header>
-  <div class="blank"></div>
+    <header>
+        <navbar></navbar>
+    </header>
+    <div class="blank"></div>
 
-  <div class="content">
-    <div class="card shadow-sm mx-auto px-4 mt-5" style="width: 38.5%;">
-      <h2 class="text-center mt-5" style="color: var(--accent-color);">Pesquisar
-        </h1>
-        <form>
-          <div class="form-group">
-            <label class="mt-3" for="nome-busca">Nome</label>
-            <input type="text" class="form-control" id="nome-busca" placeholder="Nome...">
-          </div>
-          <div class="form-group">
-            <label for="categoria-busca">Categoria</label>
-            <button type="submit" class="btn btn-primary btn-block" style="background-color: var(--secondary-color); border: var(--secondary-color)">Inserir
-              Combo
-            </button>
-            <!--Inserir combobox aqui-->
-            <br>
-            <label for="nota-busca" class="mr-4">Nota</label>
-            <label class="radio-inline mr-5"><input type="radio" name="opcao-nota"> 1 </label>
-            <label class="radio-inline mr-5"><input type="radio" name="opcao-nota"> 2 </label>
-            <label class="radio-inline mr-5"><input type="radio" name="opcao-nota"> 3 </label>
-            <label class="radio-inline mr-5"><input type="radio" name="opcao-nota"> 4 </label>
-            <label class="radio-inline mr-5"><input type="radio" name="opcao-nota" checked> 5 </label>
+    <div class="content">
+        <div class="card shadow-sm mx-auto px-4 mt-5 w-25">
+            <h2 class="text-center mt-5" style="color: var(--accent-color);">Pesquisa</h2>
+            <form>
+                <div class="form-group">
+                    <label class="mt-3" for="nome-busca">Nome</label>
+                    <input type="text" class="form-control" id="nome-busca" placeholder="Nome...">
+                </div>
+                <div class="form-group">
+                    <label for="categoria">Categoria</label>
+                    <select class="form-control" id="categoria">
+                        <option> --- </option>
+                        <option>Desenho Industrial</option>
+                        <option>Design de Interface</option>
+                        <option>Identidade Visual</option>
+                        <option>Design de produtos</option>
+                        <option>Fotografia</option>
+                        <option>Ilustração</option>
+                    </select>
+                </div>
+                <div class="form-group mb-4">
+                    <label for="nota-busca" class="mt-0">Nota</label>
+                    <select class="form-control" id="nota">
+                        <option>5</option>
+                        <option>4</option>
+                        <option>3</option>
+                        <option>2</option>
+                        <option>1</option>
+                    </select>
+                </div>
 
-        </form>
+
+            </form>
         </div>
     </div>
 
     <div class="row mt-4 align-items-center justify-content-center ">
-        <div class="card flex-md-row mb-4 shadow-sm h-md-250"  style="width:37.5%;">
+        <div class="card flex-md-row mb-4 shadow-sm h-md-250" style="width:37.5%;">
             <div class="card-body d-flex flex-column align-items-start">
                 <div class="row">
                     <div class="col align-items-center">
@@ -68,7 +77,7 @@
     </div>
 
     <div class="row mt-4 align-items-center justify-content-center ">
-        <div class="card flex-md-row mb-4 shadow-sm h-md-250"  style="width:37.5%;">
+        <div class="card flex-md-row mb-4 shadow-sm h-md-250" style="width:37.5%;">
             <div class="card-body d-flex flex-column align-items-start">
                 <div class="row">
                     <div class="col align-items-center">
@@ -91,7 +100,7 @@
     </div>
 
     <div class="row mt-4 align-items-center justify-content-center ">
-        <div class="card flex-md-row mb-4 shadow-sm h-md-250"  style="width:37.5%;">
+        <div class="card flex-md-row mb-4 shadow-sm h-md-250" style="width:37.5%;">
             <div class="card-body d-flex flex-column align-items-start">
                 <div class="row">
                     <div class="col align-items-center">
@@ -113,14 +122,14 @@
         </div>
     </div>
     <footer>
-      <foot></foot>
+        <foot></foot>
     </footer>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"></script>
+        crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-      crossorigin="anonymous"></script>
+        crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
-      crossorigin="anonymous"></script>
+        crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script src="../js/content/navbar.js"></script>
 </body>
