@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=raleway|roboto+slab');
+@import url('https://fonts.googleapis.com/css?family=raleway|Roboto+Slab');
 
 body{
     font-family: 'Raleway', sans-serif;
@@ -23,6 +23,10 @@ body{
     background: var(--accent-color);
     box-shadow: var(--nav-shadow)
 
+}
+
+.navbar-brand {
+    font-family: var(--higlight-font);
 }
 
 .blank{
@@ -74,8 +78,7 @@ h2 {
     
 }
 
-#proposta > .btn, .d-flex > .card {
-    background: var(--secondary-color);
+#proposta > .btn, .d-flex > .card, .flex-md-row {
     box-shadow: var(--secondary-shadow);
 
 }
