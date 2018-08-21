@@ -24,6 +24,13 @@ new Vue({
 Vue.component('foot', {
   template: `<div id="foot" class="p-2">
   <p class="text-center"><i>Mocosoft</i> - 2018</p>
+  <p class="text-center">
+    <a class="link-github" href="https://github.com/Treeek"> Treek </a> &#9702
+    <a class="link-github" href="https://github.com/wvxbs"> wvxbs </a> &#9702
+    <a class="link-github" href="https://github.com/G5Olivieri"> G50livieri </a> &#9702
+    <a class="link-github" href="https://github.com/victorgirardi"> victorgirardi </a> &#9702
+    <a class="link-github" href="https://github.com/PepeVic"> PepepVic </a> 
+  </p>
 </div>`
 });
 

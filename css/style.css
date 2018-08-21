@@ -32,9 +32,37 @@ body{
 }
 
 footer > #foot {
+    background-color: var(--accent-color);
+    color: white;
+    position: static;
+    width: 100%;
     bottom:0;
+    left: 0;
     font-size: 12px;
+    margin: 0;
 
+}
+
+.link-github{
+    color: white;
+    font-size: 14px;
+    font-family: var(--higlight-font);
+}
+
+.link-github:link{
+    color: white;
+}
+
+.link-github:visited{
+    color:white;
+}
+
+.link-github:hover{
+    color:white;
+}
+
+.link-github:active{
+    color: white;
 }
 
 .search-icon{
