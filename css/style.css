@@ -31,7 +31,7 @@ body{
 
 }
 
-footer > #foot {
+.footer-static {
     background-color: var(--accent-color);
     color: white;
     position: static;
@@ -40,7 +40,20 @@ footer > #foot {
     left: 0;
     font-size: 12px;
     margin: 0;
+    margin-top: 25px;
 
+}
+
+.footer-absolute {
+    background-color: var(--accent-color);
+    color: white;
+    position: absolute;
+    width: 100%;
+    bottom:0;
+    left: 0;
+    font-size: 12px;
+    margin: 0;
+    margin-top: 25px;
 }
 
 .link-github{
