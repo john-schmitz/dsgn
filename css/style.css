@@ -33,7 +33,7 @@ body{
 }
 
 .footer-static {
-    background-color: var(--accent-color);
+    background-color: #f65289;
     color: white;
     position: static;
     width: 100%;
