@@ -46,7 +46,7 @@ body{
 }
 
 .footer-absolute {
-    background-color: var(--accent-color);
+    background-color: #f65289;
     color: white;
     position: absolute;
     width: 100%;
