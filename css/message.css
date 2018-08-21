@@ -83,3 +83,7 @@
 .sent img {
     width: 100%;
 }
+
+.cardChat:hover{
+    background: #dfd9d9;
+}
