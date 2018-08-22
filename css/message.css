@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: end;
     padding: 0;
-    max-height: calc(100vh - 120px);
+    max-height: calc(100vh - 184px);
 }
 
 .chat, .cardChats{
@@ -40,7 +40,8 @@
 }
 
 .container {
-    height: calc(100vh - 120px);
+    width: 99%;
+    max-width: 99%;
 }
 
 .chatBox {
