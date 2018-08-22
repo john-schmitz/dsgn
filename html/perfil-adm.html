@@ -24,10 +24,10 @@
                   <button class="btn btn-danger mx-1">Denuncias</button>
                 </li>  
                 <li class="nav-item my-auto">
-                  <button class="btn btn-outline-light mx-1">Ocultar Usuario</button>
+                  <button class="btn btn-outline-light mx-1" onclick="OcultarUsuario()">Ocultar Usuario</button>
                 </li>    
                 <li class="nav-item my-auto">
-                <button class="btn btn-outline-light mx-1" id="ocultar-porfolio">Ocultar Portfolio</button>
+                <button class="btn btn-outline-light mx-1" onclick="OcultarPortfolio()">Ocultar Portfolio</button>
                 </li>
                 <li class="nav-item my-auto">
                   <a class="nav-link font-weight-bold" href="../html/busca.html">
@@ -39,7 +39,7 @@
         </nav>
       </header>
       <div class="blank"></div>
-      <div class="container my-3">
+      <div class="container my-3" id="nome-designer">
         <div class="row">
             <div class="col-auto">
                 <img src="../imagens/icones/carlosperfil.jpg" class="rounded-circle img-thumbnail" width="100px" height="100px">
@@ -120,10 +120,10 @@
             </div>
         </div>
     </div>
-    <div class="jumbotron text-center" id="error">
+    <div class="jumbotron text-center" id="error1">
         <h1 class="display-4 text-center">Nada Aqui :(</h1>
-        <p class="lead">Talvez o portfolio tenha sido ocultado</p>
-      </div>
+        <p class="lead">Talvez algo tenha sido ocultado</p>
+    </div>
       <footer>
             <div id="foot" class="p-2 footer-static">
                     <p class="text-center"><i>Mocosoft</i> - 2018</p>
