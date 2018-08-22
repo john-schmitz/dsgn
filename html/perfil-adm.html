@@ -21,7 +21,7 @@
           <div class="colapse navbar-colapse ml-auto my-auto" id="navbar">
               <ul class="navbar-nav justify-content-center align-items-center">
                 <li class="nav-item my-auto">
-                  <button class="btn btn-danger mx-1">Denuncias</button>
+                  <button class="btn btn-danger mx-1" data-toggle="modal" data-target="#denuncias">Denuncias</button>
                 </li>  
                 <li class="nav-item my-auto">
                   <button class="btn btn-outline-light mx-1" onclick="OcultarUsuario()">Ocultar Usuario</button>
@@ -140,6 +140,66 @@
                     </p>
                   </div>
       </footer>
+
+       <!--------------------Modal Das Denuncias----------------------->
+
+       <div class="modal fade" id="denuncias" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Modal title</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+             <div class="row mx-auto">
+                <div class="col-lg2">
+                    <img src="../imagens/icones/maia.jpg" class="rounded-circle img-thumbnail" width="100px" height="100px">
+                </div>
+                <div class="col-md-auto">
+                    <h3 class="mb-0"><a href="" class="text-dark">Vitor Mimosa Baia</a></h3>
+                    <div class="mb-1 text-muted">Denunciado por: Pedofilia</div>
+                        <div class="btn-group" role="group" aria-label="Basic example">
+                            <button type="button" class="btn btn-success">Aceitar</button>
+                            <button type="button" class="btn btn-danger">Recusar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-body">
+             <div class="row mx-auto">
+                <div class="col-lg2">
+                    <img src="../imagens/icones/maia.jpg" class="rounded-circle img-thumbnail" width="100px" height="100px">
+                </div>
+                <div class="col-md-auto">
+                    <h3 class="mb-0"><a href="" class="text-dark">Vitor Mimosa Baia</a></h3>
+                    <div class="mb-1 text-muted">Denunciado por: Ketchup na pizza</div>
+                        <div class="btn-group" role="group" aria-label="Basic example">
+                            <button type="button" class="btn btn-success">Aceitar</button>
+                            <button type="button" class="btn btn-danger">Recusar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-body">
+             <div class="row mx-auto">
+                <div class="col-lg2">
+                    <img src="../imagens/icones/maia.jpg" class="rounded-circle img-thumbnail" width="100px" height="100px">
+                </div>
+                <div class="col-md-auto">
+                    <h3 class="mb-0"><a href="" class="text-dark">Vitor Mimosa Baia</a></h3>
+                    <div class="mb-1 text-muted">Denunciado por: Apologia ao nazismo</div>
+                        <div class="btn-group" role="group" aria-label="Basic example">
+                            <button type="button" class="btn btn-success">Aceitar</button>
+                            <button type="button" class="btn btn-danger">Recusar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
