@@ -11,6 +11,7 @@ body{
 
 :root{
     --higlight-font: 'Roboto Slab', serif;
+    --light-background: rgb(255, 234, 240);
     --nav-shadow: 0 1px 5px rgb(172, 172, 172);
     --accent-color: rgb(245, 58, 120);
     --secondary-chat: rgb(255, 210, 113);
@@ -24,6 +25,10 @@ body{
     background: var(--accent-color);
     box-shadow: var(--nav-shadow)
 
+}
+
+.jumbotron {
+    background: var(--light-background)
 }
 
 .navbar-icon {
@@ -43,7 +48,7 @@ body{
 }
 
 .footer-static {
-    background: rgb(248, 234, 239);
+    background: var(--light-background);
     color: black;
     position: static;
     width: 100%;
@@ -56,7 +61,7 @@ body{
 }
 
 .footer-absolute {
-    background: rgb(252, 199, 217);
+    background: var(--light-background);
     color: black;
     position: absolute;
     width: 100%;
