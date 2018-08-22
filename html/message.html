@@ -104,6 +104,10 @@
                                 <a href="#" class="dropdown-item" data-toggle="modal" data-target="#cancel-project">Cancelar
                                     Projeto
                                 </a>
+                                <div class="dropdown-divider"></div>
+                                <div class="mx-auto dropdown-item">
+                                    <a class="btn btn-danger text-lightcorc"data-toggle="modal" data-target="#denunciar">Denunciar</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -178,8 +182,30 @@
             </div>
         </div>
     </div>
+    <!-- denunciar -->
+    <div class="modal fade" id="denunciar" role="dialog">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header text-light bg-danger">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">Denunciar</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                            <input type="text" class="form-control" id="propostaJob" placeholder="Digite sua Denuncia">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-danger w-100">Enviar</button>
+                </div>
+                </div>
+            </div>   
+    </div>
+
     <footer>
-        <div id="foot" class="p-2 footer-static">
+        <div id="foot" class="mt-5 p-2 footer-static">
             <p class="text-center"><i>Mocosoft</i> - 2018</p>
             <p class="text-center">
                 <a class="link-github" href="https://github.com/Treeek"> Treeek </a> &#9702
