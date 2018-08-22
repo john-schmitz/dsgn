@@ -25,16 +25,18 @@ main {
 
 }
 
-.btn-primary {
+.btn-primary, .show > .btn-primary.dropdown-toggle {
     background-color: var(--accent-color);
     border: none;
 }
 
-.btn-primary:hover {
+.btn-primary:hover,.btn-primary:focus, .btn-primary:active, .show > .btn-primary.dropdown-toggle:focus {
     background-color: var(--accent-color);
     border: none;
     filter: saturate(1.5);
+    box-shadow: none;
 }
+
 
 .navbar{
     background: var(--accent-color);
