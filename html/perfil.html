@@ -43,7 +43,7 @@
     </div>
     </div>
     <div id="proposta" class="text-center my-3">
-        <button type="button" class="btn btn-outline-dark">Fazer Proposta</button>
+        <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#fazerProposta">Fazer Proposta</button>
     </div>
     <div class="container" id="jobs">
         <div class="row">
@@ -113,6 +113,30 @@
             </p>
         </div>
     </footer>
+
+    <!-- Modal para fazer proposta de JOB -->
+
+    <div class="modal fade" id="fazerProposta" role="dialog">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalCenterTitle">Fazer Proposta</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-group">
+                                <input type="text" class="form-control" id="propostaJob" placeholder="Digite sua proposta">
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-primary w-100" style="background-color: var(--secondary-color); border: var(--secondary-color);">Enviar</button>
+                    </div>
+                    </div>
+                </div>   
+        </div>
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
