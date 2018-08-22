@@ -1,8 +1,7 @@
 
 
-.hovereffect > .card {
+.col-lg > .card {
     box-shadow: 0 5px 10px rgba(255, 219, 219);
-    width: 16rem;
 }
 
 .checked {
