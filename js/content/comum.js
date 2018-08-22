@@ -12,7 +12,7 @@ Vue.component('navbar', {
 });
 
 Vue.component('adm-navbar', {
-    template: ` <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    template: `<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <a class="navbar-brand text-light my-auto"><img class="navbar-icon" src="../imagens/logo/logo-test.png">DSGN</a>
     <button class="navbar-toggler my-2" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
      <span class="navbar-toggler-icon"></span>

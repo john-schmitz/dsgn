@@ -11,7 +11,7 @@ body{
 
 :root{
     --higlight-font: 'Roboto Slab', serif;
-    --light-background: rgb(255, 234, 240);
+    --light-background: rgb(255, 246, 248);
     --nav-shadow: 0 1px 5px rgb(172, 172, 172);
     --accent-color: rgb(245, 58, 120);
     --secondary-chat: rgb(255, 210, 113);
@@ -43,7 +43,7 @@ body{
 
 .blank{
     width: 100%;
-    height: 50px;
+    height: 60px;
 
 }
 
