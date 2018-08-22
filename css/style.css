@@ -152,4 +152,8 @@ h3 {
     color: orange;
 }
 
+#error1, #error2 {
+    display: none;
+}
+
 
