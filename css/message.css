@@ -66,8 +66,8 @@
 
 .sent {
     align-self: end;
-    background: rgb(255, 247, 209);
-    color: #262626;
+    background: var(--accent-color);
+    color: #ffffff;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     border-bottom-left-radius: 15px;
