@@ -2,17 +2,40 @@
 <html lang="pt-br">
   <head>
     <title>DSGN | Perfil</title>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/perfil.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/perfil.css">
-    <link rel="stylesheet" href="../css/animacao.css">
-    <link rel="shortcut icon" href="../imagens/logo/logo-guia.png">
   </head>
+  <body>
       <header>
-          <navbar></navbar>
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+          <a class="navbar-brand text-light my-auto"><img class="navbar-icon" src="../imagens/logo/logo-test.png">DSGN</a>
+          <button class="navbar-toggler my-2" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="colapse navbar-colapse ml-auto my-auto" id="navbar">
+              <ul class="navbar-nav justify-content-center align-items-center">
+                <li class="nav-item my-auto">
+                  <button class="btn btn-outline-danger">Denuncias</button>
+                </li>  
+                <li class="nav-item my-auto">
+                  <button class="btn btn-outline-light">Ocultar Usuarios</button>
+                </li>    
+                <li class="nav-item my-auto">
+                  <button class="btn btn-outline-light mx-1">Ocultar Portifolio</button>
+                </li>
+                <li class="nav-item my-auto">
+                  <a class="nav-link font-weight-bold" href="../html/busca.html">
+                  Pesquisar
+                  </a>
+                </li>
+              </ul>
+          </div>
+        </nav>
       </header>
       <div class="blank"></div>
       <div class="container my-3">
@@ -113,5 +136,5 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script src="../js/content/comum.js"></script>
-  </footer>
+  </body>
 </html>
