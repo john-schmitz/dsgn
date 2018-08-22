@@ -56,7 +56,6 @@
 }
 
 .received {
-    align-self: start;
     background: rgb(253, 228, 255);
     color: #262626;
     border-top-left-radius: 15px;
@@ -65,7 +64,7 @@
 }
 
 .sent {
-    align-self: end;
+    align-self: flex-end;
     background: var(--accent-color);
     color: #ffffff;
     border-top-left-radius: 15px;
