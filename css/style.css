@@ -43,8 +43,8 @@ body{
 }
 
 .footer-static {
-    background-color: #f65289;
-    color: white;
+    background: rgb(248, 234, 239);
+    color: black;
     position: static;
     width: 100%;
     bottom:0;
@@ -56,8 +56,8 @@ body{
 }
 
 .footer-absolute {
-    background-color: #f65289;
-    color: white;
+    background: rgb(252, 199, 217)
+    color: black;
     position: absolute;
     width: 100%;
     bottom:0;
@@ -74,19 +74,19 @@ body{
 }
 
 .link-github:link{
-    color: white;
+    color: black;
 }
 
 .link-github:visited{
-    color:white;
+    color:black;
 }
 
 .link-github:hover{
-    color:white;
+    color:black;
 }
 
 .link-github:active{
-    color: white;
+    color: black;
 }
 
 .search-icon{
