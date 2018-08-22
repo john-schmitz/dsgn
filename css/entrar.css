@@ -1,11 +1,16 @@
 .container{
-    padding-top: 10%;
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .login-card {
     border-radius: 5%;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     padding: 30px;
+}
+
+.footer {
+    background: rgb(252, 199, 217);
 }

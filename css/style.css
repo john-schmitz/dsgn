@@ -56,7 +56,7 @@ body{
 }
 
 .footer-absolute {
-    background: rgb(252, 199, 217)
+    background: rgb(252, 199, 217);
     color: black;
     position: absolute;
     width: 100%;
