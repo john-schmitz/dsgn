@@ -30,7 +30,12 @@ main {
     border: none;
 }
 
-.btn-primary:hover,.btn-primary:focus, .btn-primary:active, .show > .btn-primary.dropdown-toggle:focus {
+.btn-primary:hover,
+.btn-primary:focus, 
+.btn-primary:active, 
+.show > .btn-primary.dropdown-toggle:focus,
+.btn-primary:not(:disabled):not(.disabled):active,
+btn-primary.focus {
     background-color: var(--accent-color);
     border: none;
     filter: saturate(1.5);
