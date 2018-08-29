@@ -49,6 +49,9 @@ btn-primary.focus {
 
 }
 
+.icontainer {
+    background: var(--accent-color);
+}
 .jumbotron {
     background: var(--light-background)
 }
