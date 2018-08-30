@@ -1,5 +1,5 @@
 Vue.component('navbar', {
-    template: ` <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="box-shadow: none">
+    template: ` <nav class="navbar navbar-expand-lg navbar-dark" style="box-shadow: none">
     <a class="navbar-brand text-light my-auto"><img class="navbar-icon" src="imagens/logo/logo-test.png">DSGN</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav" aria-controls="Nav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>

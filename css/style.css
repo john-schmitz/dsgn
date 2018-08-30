@@ -56,6 +56,8 @@ label {
 }
 
 .icontainer {
+    padding: 0;
+margin: 0;
     background: rgb(255, 78, 137);
 }
 .jumbotron {
@@ -78,8 +80,11 @@ label {
 
 }
 
+a {
+    text-decoration: none;
+}
+
 .footer-static {
-    background: var(--light-background);
     color: black;
     position: static;
     width: 100%;
@@ -92,7 +97,6 @@ label {
 }
 
 .footer-absolute {
-    background: var(--light-background);
     color: black;
     position: absolute;
     width: 100%;

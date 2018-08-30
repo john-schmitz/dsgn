@@ -6,65 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/cadastro.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/entrar.css">
     <link rel="icon" href="imagens/logo/logo-guia.png">
   </head>
-  <body>
+  <body style="background: rgb(245, 58, 120)">
     <header>
       <navbar></navbar>
     </header>
-    <div class="blank"></div>
-      <div class="icontainer py-4 ">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm">
-              <h1 class="display-3 text-light">Bem vindo ao dsgn!</h1>
-              <h4 class="text-light">O lugar ideal para você encontrar um job</h4>
-            </div>
-            <div class="col-sm-4">
-              <div class="register-card">
-                <h1 class="text-center">Cadastro</h1>
-                <form>
-                    <div class="form-group">
-                        <label for="campoemail">E-mail</label>
-                        <input type="email" class="form-control" id="campoemail" placeholder="E-mail" aria-describedby="email">
-                    </div>
-                    <div class="form-group">
-                        <label for="camponome">Nome</label>
-                        <input type="text" class="form-control" id="camponome" placeholder="Nome" aria-describedby="nome">
-                    </div>
-                    <div class="form-group">
-                        <label for="camponome">Usuário</label>
-                        <input type="text" class="form-control" id="campouso" placeholder="Usuario" aria-describedby="usuario">
-                    </div>
-                    <div class="form-group">
-                        <label for="camposenha">Senha</label>
-                        <input type="password" class="form-control" id="camposenha" placeholder="Senha" aria-describedby="senha">
-                    </div>
-                    <div class="form-group">
-                        <label for="campoconfirmasenha">Cofirmação da Senha</label>
-                        <input type="password" class="form-control" id="campoemail" placeholder="Confirmação da Senha" aria-describedby="Cofirmação da Senha">
-                    </div>
-                    <br>
-                    <div class="radio">
-                        <label>
-                            <input type="radio" name="tipo-perfil" checked> Eu quero contratar um designer
-                        </label>
-                    </div>
-                    <div class="radio">
-                        <label>
-                            <input type="radio" name="tipo-perfil"> Eu quero arrumar um job
-                        </label>
-                    </div>
-                    <br>
-                    <div class="form-check">
-                        <label class="form-check-label">
-                            <input required type="checkbox" class="form-check-input" name="checktermos" id="checktermos" value=""> Eu li e aceito os termos de uso
-                        </label>
-                    </div>
-                    <br>
-                    <a href="../html/main.html" id="return"><button type="submit" class="btn btn-primary btn-block">Cadastrar</button></a>
-                </form>
+      <div class="container">
+        <div id="row"class="row">
+          <div class="col-sm">
+            <h1 class="display-3 text-light">Bem vindo ao dsgn!</h1>
+            <h4 class="text-light">O lugar ideal para você encontrar um job</h4>
+          </div>
+          <div class="col-sm-4">
+                <div class="login-card" style="margin-top:0">
+                    <form >
+                        <div class="form-group">
+                            <label for="usuarioEntrada">Usuário</label>
+                            <input type="email" class="form-control" id="usuarioEntrada" placeholder="Usuário">
+                        </div>
+                        <div class="form-group">
+                            <label for="senhaEntrada">Senha</label>
+                            <input type="password" class="form-control" id="senhaEntrada" placeholder="Senha">
+                        </div>
+                        <div class="text-center">
+                            <a href="../html/main.html" class="btn btn-primary btn-block">Entrar</a>
+                        </div>
+                        <br>
+                        <div class="text-center">
+                            <a data-toggle="modal" style="color: var(--secondary-color)" href="#esqueciSenha">Esqueci minha senha</a><br>
+                            <small> Ou</small><br>
+                            <a href="html/cadastro.html">Cadastre-se</a>
+                        </div>
+                    </form>
+                </div>
             </div>
             </div>
           </div>
