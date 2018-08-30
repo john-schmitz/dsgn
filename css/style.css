@@ -49,6 +49,15 @@ btn-primary.focus {
 
 }
 
+label {
+    font-size: 14px;
+    color: rgb(85, 85, 85);
+    
+}
+
+.icontainer {
+    background: rgb(255, 78, 137);
+}
 .jumbotron {
     background: var(--light-background)
 }
