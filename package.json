@@ -1,0 +1,23 @@
+{
+  "name": "plataforma-de-galeria-para-designers",
+  "version": "1.0.0",
+  "description": "[Especificação de Requisitos](https://docs.google.com/document/d/1BgWSFNvGBXuQMd2mhTMSSepu4Mwc03Q609uF0mRVcYk/edit?usp=sharing)",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "vue": "^2.5.17"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Treeek/Plataforma-de-Galeria-Para-Designers.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Treeek/Plataforma-de-Galeria-Para-Designers/issues"
+  },
+  "homepage": "https://github.com/Treeek/Plataforma-de-Galeria-Para-Designers#readme"
+}
