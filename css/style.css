@@ -16,7 +16,6 @@ main {
 :root{
     --higlight-font: 'Roboto Slab', serif;
     --light-background: rgb(255, 246, 248);
-    --nav-shadow: 0 1px 5px rgb(63, 63, 63);
     --accent-color: rgb(245, 58, 120);
     --secondary-chat: rgb(255, 210, 113);
     --secondary-color: rgb(252, 169, 197);
@@ -45,7 +44,6 @@ btn-primary.focus {
 
 .navbar{
     background: var(--accent-color);
-    box-shadow: var(--nav-shadow)
 
 }
 
