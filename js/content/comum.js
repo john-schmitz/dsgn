@@ -7,7 +7,7 @@ Vue.component('modal', {
             </div>
             <div class="modal-body">
                 <div class="content">
-                        <form>
+                        <form class="px-3">
                             <div class="form-group">
                                 <label class="mt-3" for="nome-busca">Nome</label>
                                 <input type="text" class="form-control" id="nome-busca" placeholder="Nome...">
@@ -34,12 +34,12 @@ Vue.component('modal', {
                                     <option>1</option>
                                 </select>
                             </div>
-                        </form>
+                        </div>
+                    <div style="text-align: right">
+                        <button type="button" class="btn btn-secondary ml-auto" data-dismiss="modal">cancelar</button>
+                        <button type="button" class="btn btn-primary">Buscar</button>
                     </div>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save</button>
+                </form>
             </div>
         </div>
     </div>
@@ -47,20 +47,35 @@ Vue.component('modal', {
 });
 
 Vue.component('navbar', {
-  template: `<nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow-sm">
+  template: `<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
   <a class="navbar-brand my-auto"><div class="navbar-icon"><img class="navbar-icon" src="../imagens/logo/logo-test.png"></a>
-  <ul class="navbar-nav ml-auto justify-content-center align-items-center">
-      <li class="nav-item active">
-          <button type="button" id="pesquisar" class="btn btn-primary btn-md" data-toggle="modal" data-target="#modal-buscar">
-          Pesquisar
-        </button>
-      </li>
-  </ul>
+  <div class="ml-auto d-inline-flex">
+      <div class="mx-1 my-auto">
+        <form>
+            <div class="search-div">
+                <a id="pesquisar" data-toggle="modal" data-target="#modal-buscar">
+                    <img class="search-icon" src="../imagens/icones/if_11_Search_106236.png">
+                </a>
+            </div>
+        </form>
+      </div>
+      <div class="mx-1 my-auto">
+        <div class="dropdown profile-div">
+            <a class="dropdown-toggle" type="button" id="profile-icon" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <img class="profile-icon" src="../imagens/icones/carlosperfil.jpg">  
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="profile-icon">
+                <a class="dropdown-item" href="perfil.html">Ver Perfil</a>
+                <a class="dropdown-item" href="#">Sair</a>
+            </div>
+        </div>
+      </div>
+  </div>
 </nav>`
 });
 
 Vue.component('adm-navbar', {
-    template: `<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow-sm">
+    template: `<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <a class="navbar-brand my-auto"><img class="navbar-icon" src="../imagens/logo/logo-test.png">DSGN</a>
     <button class="navbar-toggler my-2" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
      <span class="navbar-toggler-icon"></span>
@@ -83,6 +98,10 @@ Vue.component('adm-navbar', {
 new Vue({
     el: 'header'
 });
+
+function Voltar() {
+    
+}
 
 
 

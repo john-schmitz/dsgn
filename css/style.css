@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab');
 
 body{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -42,7 +42,9 @@ btn-primary.focus {
     box-shadow: none;
 }
 
-.form-control:focus, .custom-select:focus {
+.form-control:focus, 
+.custom-select:focus, 
+.btn-primary:focus {
     box-shadow: var(--focus-shadow);
     border: 1px var(--accent-color) solid; 
 }
@@ -50,9 +52,9 @@ btn-primary.focus {
 .navbar{
     background: white;
     color: black;
+    box-shadow: 0 0px 8px rgb(255, 210, 225);
+
 }
-
-
 
 label {
     font-size: 14px;
@@ -69,7 +71,7 @@ label {
 
 .icontainer {
     padding: 0;
-margin: 0;
+    margin: 0;
     background: rgb(255, 78, 137);
 }
 
@@ -145,8 +147,37 @@ a {
 }
 
 .search-icon{
-    width: 30px;
-    height: 30px;
+    width: 45px;
+    height: 45px;
+    margin: auto;
+    padding: 13px;
+    filter: invert(100);    
+    border-radius: 100px;
+ 
+}
+
+.profile-icon{
+    width: 45px;
+    height: 45px;
+    margin: auto;
+    padding: 5px;    
+    border-radius: 100px;
+}
+
+.profile-div > .dropdown-menu {
+    background: var(--secondary-color);
+
+}
+
+.search-div, .profile-div {
+    text-align: center;
+    background: var(--accent-color);
+    border-radius: 100px;
+}
+
+.profile-div {
+    text-align: left;
+    width: 64px
 }
 
 .search-container {
@@ -163,6 +194,7 @@ a {
     margin: 10px;
 
 }
+
 
 h1{
     font-family: var(--higlight-font);
