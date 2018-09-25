@@ -47,8 +47,8 @@ Vue.component('modal', {
 });
 
 Vue.component('navbar', {
-  template: `<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-  <a class="navbar-brand my-auto"><div class="navbar-icon"><img class="navbar-icon" src="../imagens/logo/logo-test.png"></a>
+  template: `<nav id="nav" class="navbar navbar-expand-lg navbar-dark fixed-top">
+  <a class="navbar-brand my-auto" onclick="Voltar()"><div class="navbar-icon"><img class="navbar-icon" src="../imagens/logo/logo-test.png"></a>
   <div class="ml-auto d-inline-flex">
       <div class="mx-1 my-auto">
         <form>
@@ -75,8 +75,8 @@ Vue.component('navbar', {
 });
 
 Vue.component('adm-navbar', {
-    template: `<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <a class="navbar-brand my-auto"><img class="navbar-icon" src="../imagens/logo/logo-test.png">DSGN</a>
+    template: `<nav id="nav" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand my-auto" onclick="Voltar()"><img class="navbar-icon" src="../imagens/logo/logo-test.png">DSGN</a>
     <button class="navbar-toggler my-2" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
      <span class="navbar-toggler-icon"></span>
     </button>
@@ -92,6 +92,28 @@ Vue.component('adm-navbar', {
             </li>
         </ul>
     </div>
+    <div class="ml-auto d-inline-flex">
+      <div class="mx-1 my-auto">
+        <form>
+            <div class="search-div">
+                <a id="pesquisar" data-toggle="modal" data-target="#modal-buscar">
+                    <img class="search-icon" src="../imagens/icones/if_11_Search_106236.png">
+                </a>
+            </div>
+        </form>
+      </div>
+      <div class="mx-1 my-auto">
+        <div class="dropdown profile-div">
+            <a class="dropdown-toggle" type="button" id="profile-icon" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <img class="profile-icon" src="../imagens/icones/carlosperfil.jpg">  
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="profile-icon">
+                <a class="dropdown-item" href="perfil.html">Ver Perfil</a>
+                <a class="dropdown-item" href="#">Sair</a>
+            </div>
+        </div>
+      </div>
+  </div>
   </nav>` 
 });
 
@@ -100,8 +122,20 @@ new Vue({
 });
 
 function Voltar() {
-    
+    window.history.back();
+
 }
+
+function Rolagem() {
+        if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+            document.getElementById('nav').style.borderBottom = '0.1px #cccccc solid';
+        } else {
+            document.getElementById('nav').style.border = 'none';
+        }
+    }
+
+
+
 
 
 
