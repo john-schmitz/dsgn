@@ -21,6 +21,7 @@ main {
     --secondary-color: rgb(252, 169, 197);
     --secondary-shadow: 0 5px 10px rgb(255, 219, 219);
     --primary-shadow: 0 2px 2px rgb(172, 172, 172);
+    --focus-shadow: 0 0 0 .2rem --secondary-color;
 
 }
 
@@ -41,11 +42,17 @@ btn-primary.focus {
     box-shadow: none;
 }
 
+.form-control:focus {
+    box-shadow: var(--focus-shadow);
+    
+}
 
 .navbar{
-    background: var(--accent-color);
-
+    background: var(--secondary-color);
+    color: black;
 }
+
+
 
 label {
     font-size: 14px;
@@ -53,11 +60,19 @@ label {
     
 }
 
+.modal-header {
+    text-align: center;
+    color: var(--accent-color);
+    font-family: var(--higlight-font);
+
+}
+
 .icontainer {
     padding: 0;
 margin: 0;
     background: rgb(255, 78, 137);
 }
+
 .jumbotron {
     background: var(--light-background)
 }
@@ -69,7 +84,9 @@ margin: 0;
 }
 
 .navbar-brand {
-    font-family: var(--higlight-font);
+    background: var(--accent-color);
+    width: 38px;
+    border-radius: 100px;
 }
 
 .blank{

@@ -1,3 +1,11 @@
 #row {
     transform: translateY(100px);
 }
+
+body {
+    background: var(--accent-color);
+}
+
+.navbar {
+    background: rgba(0, 0, 0, 0.021);
+}
