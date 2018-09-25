@@ -1,5 +1,3 @@
-var bodyParser = require("body-parser")
-var path = require('path')
 //decalração express
 var express = require('express')
 var app = express();
