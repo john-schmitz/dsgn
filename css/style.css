@@ -21,7 +21,7 @@ main {
     --secondary-color: rgb(252, 169, 197);
     --secondary-shadow: 0 5px 10px rgb(255, 219, 219);
     --primary-shadow: 0 2px 2px rgb(172, 172, 172);
-    --focus-shadow: 0 0 0 .2rem --secondary-color;
+    --focus-shadow: 0 0 0 .2rem var(--secondary-color);
 
 }
 
@@ -42,13 +42,13 @@ btn-primary.focus {
     box-shadow: none;
 }
 
-.form-control:focus {
+.form-control:focus, .custom-select:focus {
     box-shadow: var(--focus-shadow);
-    
+    border: 1px var(--accent-color) solid; 
 }
 
 .navbar{
-    background: var(--secondary-color);
+    background: white;
     color: black;
 }
 
