@@ -1,7 +1,3 @@
-.dis > img {
-    filter: saturate(0.3);
-}
-
 .coment-stream > div {
     border-bottom: .1px rgb(224, 224, 224) solid;
 }

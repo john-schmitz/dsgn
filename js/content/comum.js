@@ -54,7 +54,7 @@ Vue.component('navbar', {
         <form>
             <div class="search-div">
                 <a id="pesquisar" data-toggle="modal" data-target="#modal-buscar">
-                    <img class="search-icon" src="../imagens/icones/if_11_Search_106236.png">
+                    <img class="search-icon" src="../imagens/icones/if_Find01_928435.png">
                 </a>
             </div>
         </form>
@@ -88,7 +88,7 @@ Vue.component('adm-navbar', {
         <form>
             <div class="search-div">
                 <a id="pesquisar" data-toggle="modal" data-target="#modal-buscar">
-                    <img class="search-icon" src="../imagens/icones/if_11_Search_106236.png">
+                    <img class="search-icon" src="../imagens/icones/if_Find01_928435.png">
                 </a>
             </div>
         </form>

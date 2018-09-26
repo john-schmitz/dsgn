@@ -86,12 +86,12 @@ Vue.component('modal1',{
         <div class="modal-content">
             <div class="modal-body">
                 <div>
-                    <p class="text-muted">Artista: {{ UsrDesigner }}<br>
-                    Titulo: {{ Job }}
-                    </p>
                     <div class="row">
                         <div class="col-md">
                             <img class="card-img-top" src="../imagens/jobs/job1.jpg" alt="job1">
+                            <p class="text-muted">Artista: {{ UsrDesigner }}<br>
+                    Titulo: {{ Job }}
+                    </p>
                         </div>
                         <div class="col-md-5">
                             <p>19 Curtidas |<a style="color: var(--accent-color)">      curtir</a></p>
@@ -117,12 +117,12 @@ Vue.component('modal2',{
         <div class="modal-content">
             <div class="modal-body">
                 <div>
-                    <p class="text-muted">Artista: {{ UsrDesigner }}<br>
-                    Titulo: {{ Job }}
-                    </p>
                     <div class="row">
                         <div class="col-md">
                         <img class="card-img-top" src="../imagens/jobs/job2-1.jpg" alt="job2">
+                        <p class="text-muted">Artista: {{ UsrDesigner }}<br>
+                    Titulo: {{ Job }}
+                    </p>
                         </div>
                         <div class="col-md-5">
                             <p>47 Curtidas |<a style="color: var(--accent-color)">      curtir</a></p>
@@ -151,12 +151,12 @@ Vue.component('modal3',{
         <div class="modal-content">
             <div class="modal-body">
             <div>
-            <p class="text-muted">Artista: {{ UsrDesigner }}<br>
-            Titulo: {{ Job }}
-            </p>
             <div class="row">
                 <div class="col-md">
                 <img class="card-img-top" src="../imagens/jobs/job2.jpg" alt="job2">
+                <p class="text-muted">Artista: {{ UsrDesigner }}<br>
+                    Titulo: {{ Job }}
+                    </p>
                 </div>
                 <div class="col-md-5">
                     <p>47 Curtidas |<a style="color: var(--accent-color)">      curtir</a></

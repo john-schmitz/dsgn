@@ -50,9 +50,10 @@ btn-primary.focus {
 }
 
 nav{
-    background: white;
+    background: var(--accent-color);
     color: black;
     transition: 2ms ease-in-out;
+    box-shadow: var(--secondary-shadow);
 
 }
 
@@ -129,11 +130,11 @@ a {
 }
 
 .search-icon{
-    width: 45px;
-    height: 45px;
+    width: 50px;
+    height: 50px;
     margin: auto;
-    padding: 13px;
-    filter: invert(100);    
+    padding: 13px;    
+    filter: invert(20);
     border-radius: 100px;
  
 }
@@ -144,12 +145,13 @@ a {
     margin: auto;
     padding: 5px;    
     border-radius: 100px;
+    
 }
 
 .search-div, .profile-div {
     text-align: center;
-    background: var(--accent-color);
     border-radius: 100px;
+
 }
 
 .profile-div {
@@ -192,7 +194,7 @@ h3 {
 
 }
 
-#job-container > .card {
+.card {
     box-shadow: var(--secondary-shadow);
     transition: 1s;
 
