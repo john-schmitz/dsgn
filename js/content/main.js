@@ -37,20 +37,6 @@ Vue.component('job1',{
                 <p class="card-text text-muted">{{ TipoDesigner }} | {{ UsrDesigner }}</p>
             </div>
         </div>
-        
-        <div class="card mb-4 h-md-250 mx-4" style="width: 18rem">
-            <div class="hovereffect">
-                <img class="card-img-top" src="../imagens/jobs/job2.jpg" alt="job3">
-                <div class="overlay">
-                    <h2>5000 avaliações</h2>
-                </div>
-            </div>
-
-            <div class="card-body">
-                <h5 class="card-title">{{ Job }}</h5>
-                <p class="card-text text-muted">{{ TipoDesigner }} | {{ UsrDesigner }}</p>
-            </div>
-        </div>
     </div>
 </div>`,
     data: function() {
@@ -63,7 +49,7 @@ Vue.component('job2', {
     <div class="hovereffect">
         <img class="card-img-top" src="../imagens/jobs/job2-1.jpg" alt="job2">
         <div class="overlay">
-            <h2>300 avaliações</h2>
+            <h2>{{ Avaliacoes }}</h2>
         </div>
     </div>
     <div class="card-body">
@@ -76,12 +62,12 @@ Vue.component('job2', {
     }
 });
 
-Vue.component('job3',{
+Vue.component('job3', { 
     template: `<div class="card mb-4 h-md-250 mx-4" style="width: 18rem">
     <div class="hovereffect">
-        <img class="card-img-top" src="../imagens/jobs/job2.jpg" alt="job2">
+        <img class="card-img-top" src="../imagens/jobs/job2.jpg" alt="job3">
         <div class="overlay">
-            <h2>300 avaliações</h2>
+            <h2>{{ Avaliacoes }}</h2>
         </div>
     </div>
     <div class="card-body">
@@ -91,6 +77,105 @@ Vue.component('job3',{
 </div>`,
     data: function() {
         return job3
+    }
+});
+
+Vue.component('modal1',{
+    template:`<div class="modal fade" id="expanded-image1" tabindex="-1" role="dialog" aria-labelledby="expanded-image-title1" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div>
+                    <p class="text-muted">Artista: {{ UsrDesigner }}<br>
+                    Titulo: {{ Job }}
+                    </p>
+                    <div class="row">
+                        <div class="col-md">
+                            <img class="card-img-top" src="../imagens/jobs/job1.jpg" alt="job1">
+                        </div>
+                        <div class="col-md-5">
+                            <p>19 Curtidas |<a style="color: var(--accent-color)">      curtir</a></p>
+                            <p>Comentarios:</p>
+                            <div class="coment-stream">
+                                <div><p class="text-muted">Mimosa Maia:</p><p>  lindo</p></div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+</div>`,
+    data: function () {
+        return Job1;
+    } 
+});
+
+Vue.component('modal2',{
+    template:`<div class="modal fade" id="expanded-image2" tabindex="-1" role="dialog" aria-labelledby="expanded-image-title2" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div>
+                    <p class="text-muted">Artista: {{ UsrDesigner }}<br>
+                    Titulo: {{ Job }}
+                    </p>
+                    <div class="row">
+                        <div class="col-md">
+                        <img class="card-img-top" src="../imagens/jobs/job2-1.jpg" alt="job2">
+                        </div>
+                        <div class="col-md-5">
+                            <p>47 Curtidas |<a style="color: var(--accent-color)">      curtir</a></p>
+                            <p>Comentarios:</p>
+                            <div class="coment-stream">
+                                <div><p class="text-muted">Mimosa Maia:</p><p>  muito lindo</p></div>
+                                <div><p class="text-muted">Thanos:</p><p>  snap</p></div>
+                                <div><p class="text-muted">Zoi de gato:</p><p>  chave</p></div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+</div>`,
+    data: function () {
+        return job2;
+
+    }
+});
+
+Vue.component('modal3',{
+    template:`    <div class="modal fade" id="expanded-image3" tabindex="-1" role="dialog" aria-labelledby="expanded-image-title3" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+            <div>
+            <p class="text-muted">Artista: {{ UsrDesigner }}<br>
+            Titulo: {{ Job }}
+            </p>
+            <div class="row">
+                <div class="col-md">
+                <img class="card-img-top" src="../imagens/jobs/job2.jpg" alt="job2">
+                </div>
+                <div class="col-md-5">
+                    <p>47 Curtidas |<a style="color: var(--accent-color)">      curtir</a></
+                    <p>Comentarios:</p>
+                    <div class="coment-stream">
+                        <div><p class="text-muted">Mimosa Maia:</p><p>  muito lindo</p></div>
+                        <div><p class="text-muted">Thanos:</p><p>  snap</p></div>
+                        <div><p class="text-muted">Zoi de gato:</p><p>  muito chave</p></div>
+                        <div><p class="text-muted">Trump:</p><p>    fake news </p></div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+            </div>
+        </div>
+    </div>
+</div>`,
+    data: function () {
+        return job3;
     }
 });
 

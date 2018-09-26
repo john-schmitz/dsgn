@@ -142,10 +142,13 @@ function Voltar() {
 }
 
 function Rolagem() {
+    var nav = document.getElementById('nav');
+
         if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
-            document.getElementById('nav').style.borderBottom = '0.1px #cccccc solid';
+            nav.style.borderBottom = '0.1px #cccccc solid';
+            nav.getAnimations
         } else {
-            document.getElementById('nav').style.border = 'none';
+            nav.style.border = 'none';
         }
     }
 

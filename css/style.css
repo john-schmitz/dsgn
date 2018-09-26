@@ -49,10 +49,10 @@ btn-primary.focus {
     border: 1px var(--accent-color) solid; 
 }
 
-.navbar{
+nav{
     background: white;
     color: black;
-    transition: 2ms ease;
+    transition: 2ms ease-in-out;
 
 }
 
@@ -144,11 +144,6 @@ a {
     margin: auto;
     padding: 5px;    
     border-radius: 100px;
-}
-
-.profile-div > .dropdown-menu {
-    background: var(--secondary-color);
-
 }
 
 .search-div, .profile-div {
