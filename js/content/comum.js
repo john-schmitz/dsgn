@@ -76,24 +76,15 @@ Vue.component('navbar', {
 
 Vue.component('adm-navbar', {
     template: `<nav id="nav" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <a class="navbar-brand my-auto" onclick="Voltar()"><img class="navbar-icon" src="../imagens/logo/logo-test.png">DSGN</a>
+    <a class="navbar-brand my-auto" onclick="Voltar()"><img class="navbar-icon" src="../imagens/logo/logo-test.png"></a>
     <button class="navbar-toggler my-2" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
      <span class="navbar-toggler-icon"></span>
     </button>
     <div class="colapse navbar-colapse ml-auto" id="navbar">
-        <ul class="navbar-nav justify-content-center align-items-center">
-            <li class="nav-item active">
-                <button class="btn btn-outline-light mx-1">Ocultar Portifolio</button>
-            </li>  
-            <li class="nav-item">
-                <button type="button" id="pesquisar" class="btn btn-primary btn-md" data-toggle="modal" data-target="#modal-buscar">
-                    Pesquisar
-                </button>
-            </li>
-        </ul>
-    </div>
-    <div class="ml-auto d-inline-flex">
-      <div class="mx-1 my-auto">
+        <div class="ml-auto d-inline-flex">
+            <button class="btn btn-outline-light mx-1" onclick="OcultarUsuario()">Ocultar Perfil</button>  
+            <button class="btn btn-outline-light mx-1" onclick="OcultarPortfolio()">Ocultar Portifolio</button>  
+            <button class="btn btn-outline-danger mx-1" data-toggle="modal" data-target="#denuncias">Denuncias</button>  
         <form>
             <div class="search-div">
                 <a id="pesquisar" data-toggle="modal" data-target="#modal-buscar">
@@ -101,7 +92,6 @@ Vue.component('adm-navbar', {
                 </a>
             </div>
         </form>
-      </div>
       <div class="mx-1 my-auto">
         <div class="dropdown profile-div">
             <a class="dropdown-toggle" type="button" id="profile-icon" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -112,7 +102,6 @@ Vue.component('adm-navbar', {
                 <a class="dropdown-item" href="../index.html">Sair</a>
             </div>
         </div>
-      </div>
   </div>
   </nav>` 
 });
