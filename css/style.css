@@ -52,6 +52,7 @@ btn-primary.focus {
 .navbar{
     background: white;
     color: black;
+    transition: 2ms ease;
 
 }
 
@@ -100,27 +101,9 @@ a {
     text-decoration: none;
 }
 
-.footer-static {
-    color: black;
-    position: static;
-    width: 100%;
-    bottom:0;
-    left: 0;
-    font-size: 12px;
-    margin: 0;
-    margin-top: 25px;
-
-}
-
-.footer-absolute {
-    color: black;
-    position: absolute;
-    width: 100%;
-    bottom:0;
-    left: 0;
-    font-size: 12px;
-    margin: 0;
-    margin-top: 25px;
+#foot {
+    text-align: center;
+    transform: translateY(200%);
 }
 
 .link-github{

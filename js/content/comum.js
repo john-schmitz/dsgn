@@ -66,7 +66,7 @@ Vue.component('navbar', {
             </a>
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="profile-icon">
                 <a class="dropdown-item" href="perfil.html">Ver Perfil</a>
-                <a class="dropdown-item" href="#">Sair</a>
+                <a class="dropdown-item" href="../index.html">Sair</a>
             </div>
         </div>
       </div>
@@ -108,8 +108,8 @@ Vue.component('adm-navbar', {
               <img class="profile-icon" src="../imagens/icones/carlosperfil.jpg">  
             </a>
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="profile-icon">
-                <a class="dropdown-item" href="perfil.html">Ver Perfil</a>
-                <a class="dropdown-item" href="#">Sair</a>
+                <a class="dropdown-item" href="perfil-designer.html">Ver Perfil</a>
+                <a class="dropdown-item" href="../index.html">Sair</a>
             </div>
         </div>
       </div>
@@ -121,13 +121,28 @@ new Vue({
     el: 'header'
 });
 
+Vue.component('foot', {
+    template: `<div id="foot" class="p-2">
+    <p><i>Mocosoft</i> - 2018</p>
+        <a class="link-github" href="https://github.com/Treeek"> Treeek </a> &#9702
+        <a class="link-github" href="https://github.com/wvxbs"> wvxbs </a> &#9702
+        <a class="link-github" href="https://github.com/G5Olivieri"> G50livieri </a> &#9702
+        <a class="link-github" href="https://github.com/victorgirardi"> victorgirardi </a> &#9702
+        <a class="link-github" href="https://github.com/PepeVic"> PepeVic </a>
+  </div>`
+});
+
+new Vue({
+    el: 'footer'
+});
+
 function Voltar() {
     window.history.back();
 
 }
 
 function Rolagem() {
-        if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+        if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
             document.getElementById('nav').style.borderBottom = '0.1px #cccccc solid';
         } else {
             document.getElementById('nav').style.border = 'none';
