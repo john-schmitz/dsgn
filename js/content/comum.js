@@ -65,7 +65,7 @@ Vue.component('navbar', {
               <img class="profile-icon" src="../imagens/icones/carlosperfil.jpg">  
             </a>
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="profile-icon">
-                <a class="dropdown-item" href="perfil.html">Ver Perfil</a>
+                <a class="dropdown-item" href="perfil-designer.html">Ver Perfil</a>
                 <a class="dropdown-item" href="../index.html">Sair</a>
             </div>
         </div>
@@ -108,7 +108,7 @@ Vue.component('adm-navbar', {
               <img class="profile-icon" src="../imagens/icones/carlosperfil.jpg">  
             </a>
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="profile-icon">
-                <a class="dropdown-item" href="perfil-designer.html">Ver Perfil</a>
+                <a class="dropdown-item" href="perfil-adm.html">Ver Perfil</a>
                 <a class="dropdown-item" href="../index.html">Sair</a>
             </div>
         </div>
