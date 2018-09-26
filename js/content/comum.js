@@ -112,7 +112,6 @@ new Vue({
 
 Vue.component('foot', {
     template: `<div id="foot" class="p-2">
-    <p><i>Mocosoft</i> - 2018</p>
         <a class="link-github" href="https://github.com/Treeek"> Treeek </a> &#9702
         <a class="link-github" href="https://github.com/wvxbs"> wvxbs </a> &#9702
         <a class="link-github" href="https://github.com/G5Olivieri"> G50livieri </a> &#9702
@@ -134,7 +133,7 @@ function Rolagem() {
     var nav = document.getElementById('nav');
 
         if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
-            nav.style.borderBottom = '0.1px #cccccc solid';
+            nav.style.boxShadow = "none";
             nav.getAnimations
         } else {
             nav.style.border = 'none';

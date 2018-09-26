@@ -93,13 +93,6 @@ Vue.component('modal1',{
                     Titulo: {{ Job }}
                     </p>
                         </div>
-                        <div class="col-md-5">
-                            <p>19 Curtidas |<a style="color: var(--accent-color)">      curtir</a></p>
-                            <p>Comentarios:</p>
-                            <div class="coment-stream">
-                                <div><p class="text-muted">Mimosa Maia:</p><p>  lindo</p></div>
-                            </div>
-                        </div>
                     </div> 
                 </div>
             </div>
@@ -123,15 +116,6 @@ Vue.component('modal2',{
                         <p class="text-muted">Artista: {{ UsrDesigner }}<br>
                     Titulo: {{ Job }}
                     </p>
-                        </div>
-                        <div class="col-md-5">
-                            <p>47 Curtidas |<a style="color: var(--accent-color)">      curtir</a></p>
-                            <p>Comentarios:</p>
-                            <div class="coment-stream">
-                                <div><p class="text-muted">Mimosa Maia:</p><p>  muito lindo</p></div>
-                                <div><p class="text-muted">Thanos:</p><p>  snap</p></div>
-                                <div><p class="text-muted">Zoi de gato:</p><p>  chave</p></div>
-                            </div>
                         </div>
                     </div> 
                 </div>
@@ -158,15 +142,6 @@ Vue.component('modal3',{
                     Titulo: {{ Job }}
                     </p>
                 </div>
-                <div class="col-md-5">
-                    <p>47 Curtidas |<a style="color: var(--accent-color)">      curtir</a></
-                    <p>Comentarios:</p>
-                    <div class="coment-stream">
-                        <div><p class="text-muted">Mimosa Maia:</p><p>  muito lindo</p></div>
-                        <div><p class="text-muted">Thanos:</p><p>  snap</p></div>
-                        <div><p class="text-muted">Zoi de gato:</p><p>  muito chave</p></div>
-                        <div><p class="text-muted">Trump:</p><p>    fake news </p></div>
-                    </div>
                 </div>
             </div> 
         </div>

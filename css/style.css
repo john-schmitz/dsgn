@@ -49,7 +49,7 @@ btn-primary.focus {
     border: 1px var(--accent-color) solid; 
 }
 
-nav{
+.navbar{
     background: var(--accent-color);
     color: black;
     transition: 2ms ease-in-out;
@@ -104,13 +104,12 @@ a {
 
 #foot {
     text-align: center;
-    transform: translateY(200%);
+    top:0;
 }
 
 .link-github{
     color: white;
     font-size: 14px;
-    font-family: var(--higlight-font);
 }
 
 .link-github:link{
@@ -196,12 +195,7 @@ h3 {
 
 .card {
     box-shadow: var(--secondary-shadow);
-    transition: 1s;
 
-}
-.card:hover {
-    transform: scale(1,1);
-    
 }
 
 #proposta > .btn, .d-flex > .card, .flex-md-row {

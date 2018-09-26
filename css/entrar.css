@@ -1,11 +1,19 @@
-.login-card {
-    background: white;
-    border-radius: 4px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
-    padding: 30px;
-    min-width: 300px;
+.container {
+    text-align: center
 }
 
-.footer {
-    background: rgb(252, 199, 217);
+.login-card {
+    margin: auto;
+    text-align: left;
+    background: white;
+    border-radius: 4px;
+    padding: 30px;
+    max-width: 400px;
+    
+}
+
+#card {
+    transform: translateY(50%);
+    box-shadow: var(--secondary-shadow);
+
 }
