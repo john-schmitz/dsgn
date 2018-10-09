@@ -1,7 +1,7 @@
 "use strict";
 
 const Sequelize = require("sequelize");
-const sequelize = new Sequelize("mysql://root:aluno@localhost:3306/ifreporta", {
+const sequelize = new Sequelize("mysql://root:123456@localhost:3306/dsgn", {
 	timezone: "-03:00"
 });
 
@@ -18,3 +18,8 @@ const db = {};
 
 db.Sequelize = Sequelize;
 db.sequelize = sequelize;
+
+
+db.designer = require("../model/designer")(sequelize, Sequelize);
+
+module.exports = db;

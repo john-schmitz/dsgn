@@ -1,7 +1,13 @@
+const db = require("./config/db");
 //decalração express
-var express = require('express')
-var app = express();
-app.use(express.static('../public'))
-const porta = 5500
-app.listen(5500)
-console.log("Servidor rodando na porta " + porta);
+const express = require("express");
+const app = express();
+const porta = 5500;
+
+app.use(express.static("../public"));
+
+db.sequelize.sync().then(() => {
+	app.listen(porta);
+	//eslint-disable-next-line
+    console.log("Servidor rodando na porta " + porta);
+});
