@@ -28,6 +28,10 @@ module.exports = (sequelize, DataTypes) => {
 		avaliacao: {
 			type: DataTypes.DECIMAL,
 			allowNull: false
+		},
+		bio: {
+			type: DataTypes.STRING(1024),
+			allowNull: false
 		}
 	}, {
 		createdAt: "criado_em",
