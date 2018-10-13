@@ -19,14 +19,14 @@ const db = {};
 db.Sequelize = Sequelize;
 db.sequelize = sequelize;
 
-db.area = require("../model/area")(sequelize, Sequelize);
-db.cliente = require("../model/cliente")(sequelize, Sequelize);
-db.designer = require("../model/designer")(sequelize, Sequelize);
-db.imagemPortifolio = require("../model/imagemPortifolio")(sequelize, Sequelize);
-db.mensagem = require("../model/mensagem")(sequelize, Sequelize);
-db.moderador = require("../model/moderador")(sequelize, Sequelize);
-db.projeto = require("../model/projeto")(sequelize, Sequelize);
-db.proposta = require("../model/proposta")(sequelize, Sequelize);
-db.versao = require("../model/versao")(sequelize, Sequelize);
+db.area = require("../model/area.js")(sequelize, Sequelize);
+db.cliente = require("../model/cliente.js")(sequelize, Sequelize);
+db.designer = require("../model/designer.js")(sequelize, Sequelize);
+db.imagemPortifolio = require("../model/imagemPortifolio.js")(sequelize, Sequelize);
+db.mensagem = require("../model/mensagem.js")(sequelize, Sequelize);
+db.moderador = require("../model/moderador.js")(sequelize, Sequelize);
+db.projeto = require("../model/projeto.js")(sequelize, Sequelize);
+db.proposta = require("../model/proposta.js")(sequelize, Sequelize);
+db.versao = require("../model/versao.js")(sequelize, Sequelize);
 
 module.exports = db;

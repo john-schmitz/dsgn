@@ -1,4 +1,4 @@
-const db = require("./config/db");
+const db = require("./config/db.js");
 //decalração express
 const express = require("express");
 const app = express();
