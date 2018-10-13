@@ -1,7 +1,7 @@
 "use strict";
 
 module.exports = (sequelize, DataTypes) => {
-	const Designer = sequelize.define("admin", {
+	const Designer = sequelize.define("designer", {
 		nome: {
 			type: DataTypes.STRING(255),
 			allowNull: false
@@ -40,5 +40,12 @@ module.exports = (sequelize, DataTypes) => {
 		collate: "utf8_general_ci",
 		freezeTableName: true
 	});
+	Designer.associar = (models) => {
+		console.log(this);
+
+		// this.area = this.belongsToMany(models.area, {
+		// 	through: "especializacao"
+		// });
+	};
 	return Designer;
 };
