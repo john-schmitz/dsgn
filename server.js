@@ -3,7 +3,9 @@ const models = require("./model");
 const express = require("express");
 const app = express();
 const porta = 5500;
-// const CONFIG = require("./config/config");\
+const CONFIG = require("./config/config");
+
+
 
 app.use(express.static("public"));
 
