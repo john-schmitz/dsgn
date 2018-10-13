@@ -130,21 +130,22 @@ function Voltar() {
 }
 
 function Rolagem() {
+    var i;
     var nav = document.getElementById('nav');
+    var sicon = document.getElementsByClassName('search-icon');
 
         if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
-            nav.style.boxShadow = "none";
-            nav.getAnimations
+            nav.style.boxShadow = 'var(--secondary-shadow)';
+            nav.style.background = 'var(--accent-color)';
+            for(i = 0; i => 1; i++){
+                sicon[i].style.filter = 'invert(100)';
+            }
+            nav.getAnimations;
         } else {
-            nav.style.border = 'none';
+            nav.style.boxShadow = 'none';
+            nav.style.background = 'white';
+            for(i = 0; i => 1; i++){
+                sicon[i].style.filter = 'invert(0)';
+            }
         }
     }
-
-
-
-
-
-
-
-
-
