@@ -11,13 +11,19 @@ module.exports = (sequelize, DataTypes) => {
 			type: DataTypes.STRING(1024),
 			allowNull: false
 		}
-	},
-	{
+	}, {
 		createdAt: "criado_em",
 		updatedAt: "atualizado_em",
 		charset: "utf8",
 		collate: "utf8_general_ci",
 		freezeTableName: true
 	});
+	Area.associar = (models) => {
+		this.designer = this.belongsToMany(models.designer);
+
+		// this.designer = this.belongsToMany(models.designer, {
+		// 	through: "especializacao"
+		// });
+	};
 	return Area;
 };

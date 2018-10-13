@@ -2,21 +2,20 @@
 //TO-DO: Associação
 module.exports = (sequelize, DataTypes) => {
 
-	const Imagem = sequelize.define("imagemPortifólio", {
-		titulo:{
+	const Imagem = sequelize.define("imagemPortifolio", {
+		titulo: {
 			type: DataTypes.STRING(45),
 			allowNull: false
 		},
-		descricao:{
+		descricao: {
 			type: DataTypes.STRING(300),
 			allowNull: false
 		},
-		ordem:{
+		ordem: {
 			type: DataTypes.INTEGER(),
 			allowNull: false
 		}
-	},
-	{
+	}, {
 		createdAt: "criado_em",
 		updatedAt: "atualizado_em",
 		charset: "utf8",

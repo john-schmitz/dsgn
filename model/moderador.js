@@ -2,19 +2,17 @@
 //  TO-DO:associação
 module.exports = (sequelize, DataTypes) => {
 
-	const Versao = sequelize.define("versao", {
-		imagemCaminho: {
-			type: DataTypes.SRING(300),
+	const Moderador = sequelize.define("moderador", {
+		email: {
+			type: DataTypes.STRING(254),
 			allowNull: false,
-			defaultValue: false
+
 		},
-		release: {
-			type: DataTypes.STRING(5),
+		senha: {
+			type: DataTypes.STRING(255),
 			allowNull: false,
-			defaultValue: false
-		},
-	},
-	{
+		}
+	}, {
 		createdAt: "criado_em",
 		updatedAt: "atualizado_em",
 		charset: "utf8",
@@ -22,5 +20,5 @@ module.exports = (sequelize, DataTypes) => {
 		freezeTableName: true
 	});
 
-	return Versao;
+	return Moderador;
 };
