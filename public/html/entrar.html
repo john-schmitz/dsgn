@@ -1,0 +1,98 @@
+<!Doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/entrar.css">
+    <link rel="shortcut icon" href="../imagens/logo/logo-guia.png">
+    <link rel="shortcut icon" href="../imagens/logo/logo-guia.png">favicon>
+    <title>DSGN | Entrar</title>
+</head>
+<body>
+    <header>
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+                    <a class="navbar-brand text-light my-auto"><img class="navbar-icon" src="../imagens/logo/logo-test.png">DSGN</a>
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav" aria-controls="Nav" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                      </button>
+                        <div class="collapse navbar-collapse ml-auto" id="nav">
+                          <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                              <a class="nav-link" href="../html/entrar.html">Entre</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="../html/cadastro.html">Inscreva-se</a>
+                            </li>
+                          </ul>
+                        </div>
+                  </nav>
+    </header>
+    <div class="container">
+        <div class="login-card">
+            <form >
+                <h1 class="text-center">Entrada</h1>
+                <div class="form-group">
+                    <label for="usuarioEntrada">Usuário</label>
+                    <input type="email" class="form-control" id="usuarioEntrada" placeholder="Usuário">
+                </div>
+                <div class="form-group">
+                    <label for="senhaEntrada">Senha</label>
+                    <input type="password" class="form-control" id="senhaEntrada" placeholder="Senha">
+                </div>
+                <div class="text-center">
+                    <a href="../html/main.html" class="btn btn-primary btn-block">Entrar</a>
+                </div>
+                <br>
+                <div class="text-center">
+                    <a data-toggle="modal" style="color: var(--secondary-color)" href="#esqueciSenha">Esqueci minha senha</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    <footer>
+        <div id="foot" class="p-2 footer">
+            <p class="text-center"><i>Mocosoft</i> - 2018</p>
+            <p class="text-center">
+                <a class="link-github" href="https://github.com/Treeek"> Treeek </a> &#9702
+                <a class="link-github" href="https://github.com/wvxbs"> wvxbs </a> &#9702
+                <a class="link-github" href="https://github.com/G5Olivieri"> G50livieri </a> &#9702
+                <a class="link-github" href="https://github.com/victorgirardi"> victorgirardi </a> &#9702
+                <a class="link-github" href="https://github.com/PepeVic"> PepeVic </a> 
+            </p>
+        </div>
+    </footer>
+<!-- Modal para recuperar senha -->
+
+    <div class="modal fade" id="esqueciSenha" role="dialog">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">Recuperar Senha</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                            <label for="recuperarSenha" class="col-form-label">Digite seu E-mail para recuperar sua senha</label>
+                            <input type="email" class="form-control" id="recuperarSenha" placeholder="E-mail">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="../html/main.html"><button type="submit" class="btn btn-primary w-100" style="background-color: var(--secondary-color); border: var(--secondary-color);">Enviar</button></a>
+                </div>
+                </div>
+            </div>   
+    </div>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+      <script src="../js/content/comum.js"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+.chat{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 0;
+    max-height: calc(100vh - 184px);
+}
+
+.chat, .cardChats{
+    border: 1px solid rgba(150,150,150, 0.2);
+}
+
+.cardChat{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    border-radius: 3px;
+    padding: 10px;
+}
+.cardChats .row:first-child {
+    background: rgb(255, 98, 150);
+    color: white;
+}
+
+.cardChats {
+    padding: 0 14px;
+    border-radius: 5px;
+}
+
+.send {
+    border-top: 1px solid rgba(150,150,150, 0.2);
+    padding: 5px 0px;
+    margin-top: 5px;
+}
+
+.transparent, .transparent:active, .transparent:focus {
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+
+.container {
+    width: 99%;
+    max-width: 99%;
+}
+
+.chatBox {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.received, .sent{
+    padding: 10px;
+    margin: 0.5px 20px;
+    max-width: 40%;
+}
+
+.received {
+    background: rgb(253, 228, 255);
+    color: #262626;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.sent {
+    align-self: flex-end;
+    background: var(--accent-color);
+    color: #ffffff;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.sent img {
+    width: 100%;
+}
+
+.cardChat:hover{
+    background: #dfd9d9;
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/cadastro.css">
+    <link rel="shortcut icon" href="../imagens/logo/logo-guia.png">
+    <title>DSGN | Cadastro</title>
+</head>
+
+<body>
+    <header>
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+                    <a class="navbar-brand text-light my-auto"><img class="navbar-icon" src="../imagens/logo/logo-test.png">DSGN</a>
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav" aria-controls="Nav" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                      </button>
+                        <div class="collapse navbar-collapse ml-auto" id="nav">
+                          <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                              <a class="nav-link" href="../html/entrar.html">Entre</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="../html/cadastro.html">Inscreva-se</a>
+                            </li>
+                          </ul>
+                        </div>
+                  </nav>
+    </header>
+    <main>
+        <div class="blank"></div>
+        <div class="container">
+            <div class="register-card">
+                <h1 class="text-center">Cadastro</h1>
+                <form>
+                    <div class="form-group">
+                        <label for="campoemail">E-mail</label>
+                        <input type="email" class="form-control" id="campoemail" placeholder="E-mail" aria-describedby="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="camponome">Nome</label>
+                        <input type="text" class="form-control" id="camponome" placeholder="Nome" aria-describedby="nome">
+                    </div>
+                    <div class="form-group">
+                        <label for="camponome">Usuário</label>
+                        <input type="text" class="form-control" id="campouso" placeholder="Usuario" aria-describedby="usuario">
+                    </div>
+                    <div class="form-group">
+                        <label for="camposenha">Senha</label>
+                        <input type="password" class="form-control" id="camposenha" placeholder="Senha" aria-describedby="senha">
+                    </div>
+                    <div class="form-group">
+                        <label for="campoconfirmasenha">Cofirmação da Senha</label>
+                        <input type="password" class="form-control" id="campoemail" placeholder="Confirmação da Senha" aria-describedby="Cofirmação da Senha">
+                    </div>
+                    <div class="form-row">
+                        <div class="col-md pt-2">
+                            <label for="campocpf">CPF</label>
+                            <input type="text" class="form-control" id="campocpf" placeholder="CPF" aria-describedby="cpf">
+                        </div>
+                        <div class="col pt-2">
+                            <label for="campodatanascimento">Data de Nascimento</label>
+                            <input type="date" class="form-control" id="campodatanascimento" placeholder="Data De Nascimento" aria-describedby="data de Nascimento">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="tipo-perfil" checked> Eu quero contratar um designer
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="tipo-perfil"> Eu quero arrumar um job
+                        </label>
+                    </div>
+                    <br>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input required type="checkbox" class="form-check-input" name="checktermos" id="checktermos" value=""> Eu li e aceito os termos de uso
+                        </label>
+                    </div>
+                    <br>
+                    <a href="../html/main.html" id="return"><button type="submit" class="btn btn-primary btn-block">Cadastrar</button></a>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="foot" class="p-2">
+            <p class="text-center"><i>Mocosoft</i> - 2018</p>
+            <p class="text-center">
+                <a class="link-github" href="https://github.com/Treeek"> Treeek </a> &#9702
+                <a class="link-github" href="https://github.com/wvxbs"> wvxbs </a> &#9702
+                <a class="link-github" href="https://github.com/G5Olivieri"> G50livieri </a> &#9702
+                <a class="link-github" href="https://github.com/victorgirardi"> victorgirardi </a> &#9702
+                <a class="link-github" href="https://github.com/PepeVic"> PepeVic </a> 
+            </p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="../js/content/comum.js"></script>
+</body>
+
+</html>
