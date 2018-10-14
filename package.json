@@ -1,0 +1,16 @@
+{
+  "name": "js-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "G5Olivieri <glayson.murollo75@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "pg": "^7.5.0",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.39.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.7.0"
+  }
+}
