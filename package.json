@@ -4,6 +4,10 @@
   "main": "index.js",
   "author": "G5Olivieri <glayson.murollo75@gmail.com>",
   "license": "MIT",
+	"scripts": {
+		"start": "node index.js",
+		"eslint": "eslint"
+	},
   "dependencies": {
     "express": "^4.16.4",
     "pg": "^7.5.0",
