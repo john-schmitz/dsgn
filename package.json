@@ -4,11 +4,12 @@
   "main": "index.js",
   "author": "G5Olivieri <glayson.murollo75@gmail.com>",
   "license": "MIT",
-	"scripts": {
-		"start": "node index.js",
-		"eslint": "eslint"
-	},
+  "scripts": {
+    "start": "node index.js",
+    "eslint": "eslint"
+  },
   "dependencies": {
+    "dotenv": "^6.1.0",
     "express": "^4.16.4",
     "pg": "^7.5.0",
     "pg-hstore": "^2.3.2",
