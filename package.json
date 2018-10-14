@@ -5,7 +5,7 @@
   "author": "G5Olivieri <glayson.murollo75@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node index.js",
+    "start": "node server.js",
     "eslint": "eslint"
   },
   "dependencies": {
