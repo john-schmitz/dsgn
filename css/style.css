@@ -20,8 +20,7 @@ main {
     --secondary-chat: rgb(255, 210, 113);
     --secondary-color: rgb(252, 169, 197);
     --secondary-shadow: 0 5px 10px rgba(255, 169, 169, 0.637);
-    --primary-shadow: 0 2px 5
-    px rgba(245, 58, 120, 0.384);
+    --primary-shadow: 0 2px 5px rgba(245, 58, 120, 0.384);
     --focus-shadow: 0 0 0 .2rem var(--secondary-color);
 
 }

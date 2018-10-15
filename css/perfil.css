@@ -15,5 +15,11 @@
     box-shadow: var(--secondary-shadow);
 }
 
+.card-img-top {
+    min-width: 13rem;
+}
 
+.card {
+    margin: auto;
+}
 
