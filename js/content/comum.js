@@ -135,7 +135,7 @@ function Rolagem() {
     var sicon = document.getElementsByClassName('search-icon');
 
         if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
-            nav.style.boxShadow = 'var(--secondary-shadow)';
+            nav.style.boxShadow = 'var(--primary-shadow)';
             nav.style.background = 'var(--accent-color)';
             for(i = 0; i => 1; i++){
                 sicon[i].style.filter = 'invert(100)';
