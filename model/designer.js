@@ -40,12 +40,6 @@ module.exports = (sequelize, DataTypes) => {
 		collate: "utf8_general_ci",
 		freezeTableName: true
 	});
-	Designer.associar = () => {
-		// console.log(this);
 
-		// this.area = this.belongsToMany(models.area, {
-		// 	through: "especializacao"
-		// });
-	};
 	return Designer;
 };

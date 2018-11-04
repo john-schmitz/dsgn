@@ -11,7 +11,7 @@
     "sequelize": "^4.39.0"
   },
   "devDependencies": {
-    "eslint": "^5.7.0"
+    "eslint": "^5.8.0"
   },
   "scripts": {
     "test": "console.log('zapzap')",

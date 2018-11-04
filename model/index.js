@@ -22,13 +22,20 @@ fs.readdirSync(__dirname)
 		db[model.name] = model;
 	});
 
+
+
+
 db.sequelize = sequelize;
 db.Sequelize = Sequelize;
 
-Object.keys(db).forEach((model) => {
-	if (db[model].associar) {
-		db[model].associar(db);
-	}
-});
+db.designer.belongsToMany(db.area, { through: "expecializacao" });
+db.designer.belongsToMany(db.cliente, { through: db.proposta });
+db.designer.belongsToMany(db.cliente, { through: db.projeto });
+db.designer.hasMany(db.imagemPortifolio);
+db.cliente.belongsToMany(db.designer, { through: db.proposta });
+db.cliente.belongsToMany(db.designer, { through: db.projeto });
+db.projeto.hasMany(db.mensagem);
+db.projeto.hasMany(db.versao);
+db.area.belongsToMany(db.designer, { through: "expecializacao" });
 
 module.exports = db;
