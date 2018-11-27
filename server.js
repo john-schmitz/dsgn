@@ -1,14 +1,16 @@
+const routerapi = require("./routes");
 const models = require("./model");
 //decalração express
 const express = require("express");
 const app = express();
-const porta = 5500;
-// const CONFIG = require("./config/config");
+const CONFIG = require("./config/config");
+const porta = CONFIG.port;
+
 
 
 
 app.use(express.static("public"));
-
+app.use("/api", routerapi);
 models.sequelize.sync({
 	force: true
 }).then(() => {
