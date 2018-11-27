@@ -77,31 +77,40 @@ Vue.component('navbar', {
 Vue.component('adm-navbar', {
     template: `<nav id="nav" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <a class="navbar-brand my-auto" onclick="Voltar()"><img class="navbar-icon" src="../imagens/logo/logo-test.png"></a>
-    <button class="navbar-toggler my-2" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-     <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="colapse navbar-colapse ml-auto" id="navbar">
-        <div class="ml-auto d-inline-flex">
-            <button class="btn btn-outline-light mx-1" onclick="OcultarUsuario()">Ocultar Perfil</button>  
-            <button class="btn btn-outline-light mx-1" onclick="OcultarPortfolio()">Ocultar Portifolio</button>  
-            <button class="btn btn-outline-danger mx-1" data-toggle="modal" data-target="#denuncias">Denuncias</button>  
-        <form>
-            <div class="search-div">
-                <a id="pesquisar" data-toggle="modal" data-target="#modal-buscar">
-                    <img class="search-icon" src="../imagens/icones/if_Find01_928435.png">
-                </a>
-            </div>
-        </form>
-      <div class="mx-1 my-auto">
-        <div class="dropdown profile-div">
-            <a class="dropdown-toggle" type="button" id="profile-icon" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <img class="profile-icon" src="../imagens/icones/carlosperfil.jpg">  
-            </a>
-            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="profile-icon">
-                <a class="dropdown-item" href="perfil-adm.html">Ver Perfil</a>
-                <a class="dropdown-item" href="../index.html">Sair</a>
-            </div>
-        </div>
+    <a class="my-2 navbar-toggler" data-toggle="collapse" href="#navbar" aria-expanded="false" aria-label="Toggle navigation">
+     <img src="../imagens/icones/iconfinder_menu2_309052.svg" style="width:20px;height:20px;filter:invert(100)">
+    </a>
+    <div class="collapse navbar-collapse ml-auto" id="navbar">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item mx-auto my-auto">
+                <button class="btn btn-outline-light mx-1" onclick="OcultarUsuario()">Ocultar Perfil</button>  
+            </li>
+            <li class="nav-item mx-auto my-auto">
+                <button class="btn btn-outline-light mx-1" onclick="OcultarPortfolio()">Ocultar Portifolio</button>  
+            </li>
+            <li class="nav-item mx-auto my-auto">
+                <button class="btn btn-outline-danger mx-1" data-toggle="modal" data-target="#denuncias">Denuncias</button>  
+            </li>
+            <form>
+                <div class="search-div">
+                    <a id="pesquisar" data-toggle="modal" data-target="#modal-buscar">
+                        <img class="search-icon" style="filter:invert(100)" src="../imagens/icones/if_Find01_928435.png">
+                    </a>
+                </div>
+            </form>
+            </li>
+            <li class="nav-item mx-1 my-auto">
+                <div class="dropdown profile-div">
+                    <a class="dropdown-toggle" type="button" id="profile-icon" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img class="profile-icon" src="../imagens/icones/carlosperfil.jpg">  
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="profile-icon">
+                        <a class="dropdown-item" href="perfil-adm.html">Ver Perfil</a>
+                        <a class="dropdown-item" href="../index.html">Sair</a>
+                    </div>
+                </div>
+            </li>
+     </ul>
   </div>
   </nav>` 
 })
