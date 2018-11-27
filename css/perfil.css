@@ -16,16 +16,20 @@
 }
 
 .card-img-top {
-    min-width: 8rem;
+    min-width: 3rem;
 }
 
 .card {
-    margin: auto;
+    margin: 2px;
     transition: 300ms ease;
 }
 
 .card:hover, .card:focus {
-    transform: scale(1.1);
+    transform: scale(2);
     z-index: 999 !important;
 }
 
+@media (max-width: 1200px) {
+    .card:hover, .card:focus{
+    transform: scale(1);}
+}
