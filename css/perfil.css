@@ -16,7 +16,7 @@
 }
 
 .card-img-top {
-    min-width: 10rem;
+    min-width: 8rem;
 }
 
 .card {
@@ -25,6 +25,7 @@
 }
 
 .card:hover, .card:focus {
-    transform: scale(1.1)
+    transform: scale(1.1);
+    z-index: 999 !important;
 }
 

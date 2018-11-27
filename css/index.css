@@ -6,7 +6,7 @@ body {
     background: var(--accent-color);
 }
 
-.navbar {
+.navbar, #nav {
     background: rgba(0, 0, 0, 0.021);
 }
 

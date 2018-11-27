@@ -50,6 +50,7 @@ btn-primary.focus {
 }
 
 #nav {
+    background: white;
     border-bottom: 1px solid rgba(255, 78, 137, 0.11);
     transition: 300ms ease;
 
