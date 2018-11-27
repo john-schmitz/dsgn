@@ -2,8 +2,8 @@ Vue.component('modal', {
     template: `<div class="modal fade" id="modal-buscar" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title" id="modelTitleId">Pesquisar</h4>
+            <div class="modal-header text-center">
+                <h4 class="modal-title text-center" id="modelTitleId">Pesquisar</h4>
             </div>
             <div class="modal-body">
                 <div class="content">
