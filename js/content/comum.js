@@ -44,7 +44,7 @@ Vue.component('modal', {
         </div>
     </div>
 </div>`
-});
+})
 
 Vue.component('navbar', {
   template: `<nav id="nav" class="navbar navbar-expand-lg navbar-dark fixed-top">
@@ -61,7 +61,7 @@ Vue.component('navbar', {
       </div>
       <div class="mx-1 my-auto">
         <div class="dropdown profile-div">
-            <a class="dropdown-toggle" type="button" id="profile-icon" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="dropdown-toggle" id="profile-icon" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <img class="profile-icon" src="../imagens/icones/carlosperfil.jpg">  
             </a>
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="profile-icon">
@@ -72,7 +72,7 @@ Vue.component('navbar', {
       </div>
   </div>
 </nav>`
-});
+})
 
 Vue.component('adm-navbar', {
     template: `<nav id="nav" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
@@ -104,11 +104,11 @@ Vue.component('adm-navbar', {
         </div>
   </div>
   </nav>` 
-});
+})
 
 new Vue({
     el: 'header'
-});
+})
 
 Vue.component('foot', {
     template: `<div id="foot" class="p-2">
@@ -118,34 +118,33 @@ Vue.component('foot', {
         <a class="link-github" href="https://github.com/victorgirardi"> victorgirardi </a> &#9702
         <a class="link-github" href="https://github.com/PepeVic"> PepeVic </a>
   </div>`
-});
+})
 
 new Vue({
     el: 'footer'
-});
+})
 
 function Voltar() {
-    window.history.back();
+    window.history.back()
 
 }
 
 function Rolagem() {
-    var i;
-    var nav = document.getElementById('nav');
-    var sicon = document.getElementsByClassName('search-icon');
+    var i
+    var nav = document.getElementById('nav')
+    var sicon = document.getElementsByClassName('search-icon')
 
         if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
-            nav.style.boxShadow = 'var(--primary-shadow)';
-            nav.style.background = 'var(--accent-color)';
+            nav.style.boxShadow = 'var(--primary-shadow)'
             for(i = 0; i => 1; i++){
-                sicon[i].style.filter = 'invert(100)';
+                sicon[i].style.filter = 'invert(0)'
             }
-            nav.getAnimations;
+            nav.getAnimations
         } else {
-            nav.style.boxShadow = 'none';
-            nav.style.background = 'white';
+            nav.style.boxShadow = 'none'
+            nav.style.background = 'white'
             for(i = 0; i => 1; i++){
-                sicon[i].style.filter = 'invert(0)';
+                sicon[i].style.filter = 'invert(0)'
             }
         }
     }

@@ -50,12 +50,19 @@ btn-primary.focus {
 }
 
 #nav {
-    transition: .1s ease;
+    transition: 10ms ease;
+
 }
 
 .navbar{
     color: black;
-    transition: 2ms ease-in-out;
+    transition: 1ms ease-in-out;
+    
+}
+
+nav {
+    border-bottom: 1px solid rgba(255, 78, 137, 0.11);
+    transition: 10ms ease-in-out;
 }
 
 label {
@@ -90,7 +97,7 @@ label {
 .navbar-brand {
     background: var(--accent-color);
     width: 38px;
-    border-radius: 100px;
+    border-radius: 10px;
 }
 
 .blank{
@@ -209,6 +216,4 @@ h3 {
 
 #error1, #error2 {
     display: none;
-}
-
-
+} 
