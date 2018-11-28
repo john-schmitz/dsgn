@@ -6,9 +6,6 @@ const app = express();
 const CONFIG = require("./config/config");
 const porta = CONFIG.port;
 
-
-
-
 app.use(express.static("public"));
 app.use("/api", routerapi);
 models.sequelize.sync({

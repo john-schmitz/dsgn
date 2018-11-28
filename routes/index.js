@@ -2,8 +2,6 @@ const express = require("express");
 const router = express.Router();
 
 const designerController = require("../controllers/designerController");
-const passport = require("passport");
-
 
 // eslint-disable-next-line no-unused-vars
 router.get("/", (req, res, next) => {
