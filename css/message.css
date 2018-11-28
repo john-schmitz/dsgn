@@ -4,13 +4,14 @@
     justify-content: end;
     padding: 0;
     max-height: calc(100vh - 184px);
+    transition: 300ms ease;
 }
 
 .chat, .cardChats{
     border: 1px solid rgba(150,150,150, 0.2);
 }
 
-.cardChat{
+.cardChat {
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
@@ -79,4 +80,23 @@
 
 .cardChat:hover{
     background: #dfd9d9;
+}
+
+#desktop{
+
+}
+
+#mobile {
+    display: none    
+}
+
+@media(max-width: 728px) {
+    #desktop {
+        opacity: 0;
+        display: none;
+    }
+
+    #mobile {
+        display: block;
+    }
 }
