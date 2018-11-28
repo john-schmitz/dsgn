@@ -13,7 +13,7 @@
 }
 
 #card {
-    transform: translateY(50%);
+    transform: translateY(20%);
     box-shadow: var(--secondary-shadow);
 
 }
