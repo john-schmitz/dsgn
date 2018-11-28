@@ -52,9 +52,9 @@ Vue.component('navbar', {
   <div class="ml-auto d-inline-flex">
       <div class="mx-1 my-auto">
         <form>
-            <div class="search-div">
-                <a id="pesquisar" data-toggle="modal" data-target="#modal-buscar">
-                    <img class="search-icon" src="../imagens/icones/if_Find01_928435.png">
+            <div class="search-div my-auto">
+                <a class="my-auto" id="pesquisar" data-toggle="modal" data-target="#modal-buscar">
+                    <img class="search-icon my-auto" src="../imagens/icones/if_Find01_928435.png">
                 </a>
             </div>
         </form>
