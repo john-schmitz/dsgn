@@ -21,7 +21,8 @@
     <div class="container">
         <div id="mobile">
                 <div class="col-sm-4 col-lg-3 cardChats container pr-3">
-                        <div class="row cardChat">
+                    <a data-toggle="collapse" href="#chat" aria-expanded="false" aria-controls="chat">
+                        <div class="row cardChat" id="hugo">
                             <div class="col col-lg-3 align-items-center">
                                 <img src="../imagens/icones/carlosperfil.jpg" class="rounded-circle" width="60px" height="60px">
                             </div>
@@ -30,8 +31,57 @@
                                 <p class="mt-0" style="color: white;">@victorgirardi</p>
                             </div>
                         </div>
-        
-                        <div class="row cardChat">
+                    </a>    
+                    <div class="chat collapse" id="chat">
+                            <div class="chatBox">
+                                <p class="received">Oh meu caro! cadê meu logo?</p>
+                                <p class="sent">Senhor, estou fazendo</p>
+                                <p class="sent">Não me apressa!</p>
+                                <p class="sent">Se não eu nem o faço</p>
+                                <p class="sent">E não entrego nada</p>
+                                <p class="received">Calma aí, amigo</p>
+                                <p class="received">Perdão por me exaltar</p>
+                                <p class="received">Dei uma respirada, bora conversar</p>
+                                <p class="sent">Aqui vai uma grande mensagem de teste Pq não pode quebrar o layout mensagens grandes,
+                                    mas é só limitar o usuário dakfjldksjflkadj tabom desculpa.
+                                </p>
+                                <p class="received">Agora uma mensagem grando do outro lado para assim ficar tudo mais bonito e lindo
+                                    porém ainda bravo mas querendo muito o projeto do logo pra minha empresa de noias
+                                </p>
+                                <p class="sent">
+                                    <img src="https://designportugal.net/wp-content/uploads/2016/04/m-mcdonalds.jpg" alt="" srcset="">
+                                </p>
+                                <p class="sent">Assim que vc quer?</p>
+                                <p class="received">Isso mesmo, esse é o logo que eu queria</p>
+                                <p class="received">Só que eu quero preto</p>
+                            </div>
+                            <div class="send">
+                                <div class="input-group">
+                                    <input type="text" class="transparent form-control ml-2" placeholder="Escreva uma mensagem" aria-label="Username" aria-describedby="basic-addon1">
+                                    <button class="btn btn-primary ml-2 mr-1" style="background-color: var(--accent-color); border: var(--accent-color);">Enviar</button>
+                                    <div class="dropdown">
+                                        <button class="btn btn-primary dropdown-toggle" type="button" id="dropdown-project" data-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false"></button>
+                                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdown-project">
+                                            <a href="#" class="dropdown-item">Enviar versão final</a>
+                                            <a href="#" class="dropdown-item" data-toggle="modal" data-target="#new-version-project">Enviar
+                                                versão nova</a>
+                                            <a href="#" class="dropdown-item">Enviar referência</a>
+                                            <a href="#" class="dropdown-item" data-toggle="modal" data-target="#evaluate-project">Avaliar
+                                                companheiro
+                                            </a>
+                                            <div class="dropdown-divider"></div>
+                                            <a href="#" class="dropdown-item" data-toggle="modal" data-target="#cancel-project">Cancelar
+                                                Projeto
+                                            </a>
+                                            <div class="dropdown-divider"></div>
+                                                <a href="#" class="dropdown-item"data-toggle="modal" data-target="#denunciar">Denunciar</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row cardChat" id="maia">
                             <div class="col col-lg-3 align-items-center">
                                 <img src="../imagens/icones/carlosperfil.jpg" class="rounded-circle" width="60px" height="60px">
                             </div>
@@ -41,7 +91,7 @@
                             </div>
                         </div>
         
-                        <div class="row cardChat">
+                        <div class="row cardChat" id="kuriney">
                             <div class="col col-lg-3 align-items-center">
                                 <img src="../imagens/icones/carlosperfil.jpg" class="rounded-circle" width="60px" height="60px">
                             </div>
@@ -51,7 +101,7 @@
                             </div>
                         </div>
         
-                        <div class="row cardChat">
+                        <div class="row cardChat" id="edson">
                             <div class="col col-lg-3 align-items-center">
                                 <img src="../imagens/icones/carlosperfil.jpg" class="rounded-circle" width="60px" height="60px">
                             </div>
