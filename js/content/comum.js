@@ -120,7 +120,7 @@ new Vue({
 })
 
 Vue.component('foot', {
-    template: `<div id="foot" class="p-2">
+    template: `<div id="foot" class="p-2 mt-5">
         <a class="link-github" href="https://github.com/Treeek"> Treeek </a> &#9702
         <a class="link-github" href="https://github.com/wvxbs"> wvxbs </a> &#9702
         <a class="link-github" href="https://github.com/G5Olivieri"> G50livieri </a> &#9702
